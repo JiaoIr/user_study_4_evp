@@ -1,0 +1,26 @@
+{
+  "src.test_scale.__main__#70": {
+    "whole": "70    if __name__ == \"__main__\":\n71        test_scale()",
+    "start_line": 70,
+    "end_line": 71,
+    "src_path": "src/test_scale.py"
+  },
+  "src.test_scale.test_scale#53": {
+    "whole": "53    def test_scale():\n54    \n55        chart = Chart()\n56    \n57        # initial viewport\n58        chart.set_viewport(0, 0, 200, 100)\n59    \n60        # scale\n61        chart.scale(2.0)\n62    \n63        vp = chart.get_viewport()\n64    \n65        # center should stay\n66        assert abs(vp.get_center_x() - 100) < 0.01\n67        assert abs(vp.get_center_y() - 50) < 0.01",
+    "start_line": 53,
+    "end_line": 67,
+    "src_path": "src/test_scale.py"
+  },
+  "src.test_scale.set_viewport#26": {
+    "whole": "26        def set_viewport(self, x1, y1, x2, y2):\n27            self.viewport = ViewPort(x1, y1, x2, y2)",
+    "start_line": 26,
+    "end_line": 27,
+    "src_path": "src/test_scale.py"
+  },
+  "src.test_scale.scale#32": {
+    "whole": "32        def scale(self, factor):\n33    \n34            width = self.viewport.get_width()\n35            height = self.viewport.get_height()\n36    \n37            new_width = width * factor\n38            new_height = height * factor\n39    \n40            center_x = self.viewport.get_center_x()\n41            center_y = self.viewport.get_center_y()\n42    \n43            offset_x = new_width / 2\n44            offset_y = new_height / 2\n45    \n46            x1 = center_x - offset_x\n47            y1 = center_y - offset_y\n48            x2 = center_y + offset_x\n49            y2 = center_y + offset_y\n50    \n51            self.viewport = ViewPort(x1, y1, x2, y2)",
+    "start_line": 32,
+    "end_line": 51,
+    "src_path": "src/test_scale.py"
+  }
+}

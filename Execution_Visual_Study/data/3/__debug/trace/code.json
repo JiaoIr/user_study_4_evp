@@ -1,0 +1,32 @@
+{
+  "src.test_collision.__main__#83": {
+    "whole": "83    if __name__ == \"__main__\":\n84        test_collision()",
+    "start_line": 83,
+    "end_line": 84,
+    "src_path": "src/test_collision.py"
+  },
+  "src.test_collision.test_collision#71": {
+    "whole": "71    def test_collision():\n72        poly_a = [(0, 0), (2, 0), (2, 4), (0, 4)]\n73        poly_b = [(2.6, 1), (6.6, 1), (6.6, 2), (2.6, 2)]\n74    \n75        result = detect_collision(poly_a, poly_b)\n76    \n77        expected = False\n78    \n79        print(\"Result:\", result)\n80        assert result == expected, f\"{result} != {expected}\"",
+    "start_line": 71,
+    "end_line": 80,
+    "src_path": "src/test_collision.py"
+  },
+  "src.test_collision.detect_collision#1": {
+    "whole": "1    def detect_collision(poly_a, poly_b):\n2        debug = []\n3    \n4        # -------------------------\n5        # Step 1: compute AABB\n6        # -------------------------\n7        def compute_aabb(poly):\n8            xs = [p[0] for p in poly]\n9            ys = [p[1] for p in poly]\n10            return [min(xs), max(xs), min(ys), max(ys)]\n11    \n12        box_a = compute_aabb(poly_a)\n13        box_b = compute_aabb(poly_b)\n14    \n15        # -------------------------\n16        # Step 2: compute directional padding\n17        # -------------------------\n18        def compute_padding(poly):\n19            min_x, max_x, min_y, max_y = compute_aabb(poly)\n20            width = max_x - min_x\n21            height = max_y - min_y\n22    \n23            base = 0.5\n24    \n25            if width > height:\n26                return (base * 2, base)\n27            else:\n28                return (base, base * 2)\n29    \n30        pad_a = compute_padding(poly_a)\n31        pad_b = compute_padding(poly_b)\n32    \n33        # -------------------------\n34        # Step 3: apply padding\n35        # -------------------------\n36        def pad_box(box, padding):\n37            min_x, max_x, min_y, max_y = box\n38            pad_x, pad_y = padding\n39            return [\n40                min_x - pad_x,\n41                max_x + pad_x,\n42                min_y - pad_y,\n43                max_y + pad_y\n44            ]\n45    \n46        padded_a = pad_box(box_a, pad_a)\n47        padded_b = pad_box(box_b, pad_b)\n48    \n49        debug.append((\"boxes\", box_a, box_b))\n50        debug.append((\"padding\", pad_a, pad_b))\n51        debug.append((\"padded\", padded_a, padded_b))\n52    \n53        # -------------------------\n54        # Step 4: overlap check\n55        # -------------------------\n56        def overlap(b1, b2):\n57            min_x1, max_x1, min_y1, max_y1 = b1\n58            min_x2, max_x2, min_y2, max_y2 = b2\n59    \n60            x_overlap = not (max_x1 < min_x2 or max_x2 < min_x1)\n61            y_overlap = not (max_y1 < min_y2 or max_y2 < min_y1)\n62    \n63            return x_overlap and y_overlap\n64    \n65        return overlap(padded_a, padded_b)",
+    "start_line": 1,
+    "end_line": 65,
+    "src_path": "src/test_collision.py"
+  },
+  "src.test_collision.compute_aabb#7": {
+    "whole": "7        def compute_aabb(poly):\n8            xs = [p[0] for p in poly]\n9            ys = [p[1] for p in poly]\n10            return [min(xs), max(xs), min(ys), max(ys)]",
+    "start_line": 7,
+    "end_line": 10,
+    "src_path": "src/test_collision.py"
+  },
+  "src.test_collision.compute_padding#18": {
+    "whole": "18        def compute_padding(poly):\n19            min_x, max_x, min_y, max_y = compute_aabb(poly)\n20            width = max_x - min_x\n21            height = max_y - min_y\n22    \n23            base = 0.5\n24    \n25            if width > height:\n26                return (base * 2, base)\n27            else:\n28                return (base, base * 2)",
+    "start_line": 18,
+    "end_line": 28,
+    "src_path": "src/test_collision.py"
+  }
+}

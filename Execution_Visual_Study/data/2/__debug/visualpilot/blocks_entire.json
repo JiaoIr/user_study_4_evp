@@ -1,0 +1,306 @@
+{
+  "file": "src/test_scale.py",
+  "method": "src.test_scale.scale#32",
+  "blocks": [
+    {
+      "id": 1,
+      "name": "Retrieve",
+      "method": "src.test_scale.scale#32",
+      "start": 0.0,
+      "end": 13.7,
+      "cstart": 34,
+      "cend": 35,
+      "tstart": 17,
+      "tend": 24,
+      "trace_start": {
+        "id": 17,
+        "order": 17,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 17,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "call",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "call_target": "get_width",
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      },
+      "trace_end": {
+        "id": 24,
+        "order": 24,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 18,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": 100,
+        "assigned_to": [
+          "height"
+        ],
+        "assigned_from": [
+          "ret_get_height_9"
+        ],
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Compute",
+      "method": "src.test_scale.scale#32",
+      "start": 13.7,
+      "end": 26.85,
+      "cstart": 37,
+      "cend": 38,
+      "tstart": 25,
+      "tend": 26,
+      "trace_start": {
+        "id": 25,
+        "order": 25,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 20,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": 400.0,
+        "assigned_to": [
+          "new_width"
+        ],
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      },
+      "trace_end": {
+        "id": 26,
+        "order": 26,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 21,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": 200.0,
+        "assigned_to": [
+          "new_height"
+        ],
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Retrieve",
+      "method": "src.test_scale.scale#32",
+      "start": 26.85,
+      "end": 38.8,
+      "cstart": 40,
+      "cend": 41,
+      "tstart": 27,
+      "tend": 34,
+      "trace_start": {
+        "id": 27,
+        "order": 27,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 23,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "call",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "call_target": "get_center_x",
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      },
+      "trace_end": {
+        "id": 34,
+        "order": 34,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 24,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": 50.0,
+        "assigned_to": [
+          "center_y"
+        ],
+        "assigned_from": [
+          "ret_get_center_y_11"
+        ],
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Compute",
+      "method": "src.test_scale.scale#32",
+      "start": 38.8,
+      "end": 55.6,
+      "cstart": 43,
+      "cend": 44,
+      "tstart": 35,
+      "tend": 36,
+      "trace_start": {
+        "id": 35,
+        "order": 35,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 26,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": 200.0,
+        "assigned_to": [
+          "offset_x"
+        ],
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      },
+      "trace_end": {
+        "id": 36,
+        "order": 36,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 27,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": 100.0,
+        "assigned_to": [
+          "offset_y"
+        ],
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Compute",
+      "method": "src.test_scale.scale#32",
+      "start": 55.6,
+      "end": 69.85,
+      "cstart": 46,
+      "cend": 49,
+      "tstart": 37,
+      "tend": 40,
+      "trace_start": {
+        "id": 37,
+        "order": 37,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 29,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": -100.0,
+        "assigned_to": [
+          "x1"
+        ],
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      },
+      "trace_end": {
+        "id": 40,
+        "order": 40,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 32,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": 150.0,
+        "assigned_to": [
+          "y2"
+        ],
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Update",
+      "method": "src.test_scale.scale#32",
+      "start": 69.85,
+      "end": 80.8,
+      "cstart": 51,
+      "cend": 51,
+      "tstart": 41,
+      "tend": 47,
+      "trace_start": {
+        "id": 41,
+        "order": 41,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 34,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "call",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "call_target": "__init__",
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      },
+      "trace_end": {
+        "id": 47,
+        "order": 47,
+        "src": "src/chart/chart.py",
+        "method_name": "src.test_scale.scale#32",
+        "line": 34,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "assigned_to": [],
+        "method_name_legacy": "scale",
+        "code_key": "src.test_scale.scale#32"
+      }
+    }
+  ]
+}

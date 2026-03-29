@@ -1,0 +1,103 @@
+[
+  {
+    "method_name": "src.test_reflect.test_reflect_padding#53",
+    "line": 73,
+    "call_trace": 0,
+    "start": 1,
+    "end": 451,
+    "call_list": [
+      1,
+      10
+    ]
+  },
+  {
+    "method_name": "src.test_reflect.apply_reflect_padding#1",
+    "line": 61,
+    "call_trace": 1,
+    "start": 3,
+    "end": 422,
+    "call_list": [
+      2
+    ]
+  },
+  {
+    "method_name": "src.test_reflect.<listcomp>#13",
+    "line": 13,
+    "call_trace": 2,
+    "start": 11,
+    "end": 90,
+    "call_list": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "method_name": "src.test_reflect.<listcomp>#13",
+    "line": 13,
+    "call_trace": 3,
+    "start": 12,
+    "end": 21,
+    "call_list": []
+  },
+  {
+    "method_name": "src.test_reflect.<listcomp>#13",
+    "line": 13,
+    "call_trace": 4,
+    "start": 23,
+    "end": 32,
+    "call_list": []
+  },
+  {
+    "method_name": "src.test_reflect.<listcomp>#13",
+    "line": 13,
+    "call_trace": 5,
+    "start": 34,
+    "end": 43,
+    "call_list": []
+  },
+  {
+    "method_name": "src.test_reflect.<listcomp>#13",
+    "line": 13,
+    "call_trace": 6,
+    "start": 45,
+    "end": 54,
+    "call_list": []
+  },
+  {
+    "method_name": "src.test_reflect.<listcomp>#13",
+    "line": 13,
+    "call_trace": 7,
+    "start": 56,
+    "end": 65,
+    "call_list": []
+  },
+  {
+    "method_name": "src.test_reflect.<listcomp>#13",
+    "line": 13,
+    "call_trace": 8,
+    "start": 67,
+    "end": 76,
+    "call_list": []
+  },
+  {
+    "method_name": "src.test_reflect.<listcomp>#13",
+    "line": 13,
+    "call_trace": 9,
+    "start": 78,
+    "end": 87,
+    "call_list": []
+  },
+  {
+    "method_name": "src.test_reflect.<listcomp>#13",
+    "line": 67,
+    "call_trace": 10,
+    "start": 441,
+    "end": 446,
+    "call_list": []
+  }
+]

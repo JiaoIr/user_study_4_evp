@@ -1,0 +1,264 @@
+{
+  "id": "G1_100",
+  "main_start": "2026-03-29 11:33:20.642",
+  "main_end": "2026-03-29 11:33:48.681",
+  "answer": [
+    {
+      "case_id": "0",
+      "question": "Explain by visualPilot:0",
+      "answer": "{\"debugging\":{\"Question for Debugging\":{\"Q1\":{\"type\":\"number\",\"content\":\"故障发生在哪一行代码？\",\"response\":\"\"},\"Q2\":{\"type\":\"text\",\"content\":\"简单解释故障的具体原因。\",\"response\":\"\"},\"Q3\":{\"type\":\"text\",\"content\":\"提供一种修复该故障的方案（简述即可）。\",\"response\":\"\"}}},\"understanding\":{\"Question for Understanding\":{\"Q1\":{\"type\":\"judgement\",\"content\":\"该矩形元件以原点为中心放大。\",\"response\":\"\"},\"Q2\":{\"type\":\"text\",\"content\":\"构造一个新的初始矩形，使得同样放大至2倍后，能通过测试用例。\",\"response\":\"\"}}}}",
+      "single_start": "2026-03-29 11:33:21.528",
+      "single_end": "2026-03-29 11:33:24.095",
+      "debugging_start": "2026-03-29 11:33:21.528",
+      "debugging_end": "2026-03-29 11:33:23.936",
+      "understanding_start": "2026-03-29 11:33:23.936",
+      "understanding_end": "2026-03-29 11:33:24.095",
+      "debugging_query_answer": {
+        "Question for Debugging": {
+          "Q1": {
+            "type": "number",
+            "content": "故障发生在哪一行代码？",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "简单解释故障的具体原因。",
+            "response": ""
+          },
+          "Q3": {
+            "type": "text",
+            "content": "提供一种修复该故障的方案（简述即可）。",
+            "response": ""
+          }
+        }
+      },
+      "understanding_query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "judgement",
+            "content": "该矩形元件以原点为中心放大。",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "构造一个新的初始矩形，使得同样放大至2倍后，能通过测试用例。",
+            "response": ""
+          }
+        }
+      },
+      "query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "judgement",
+            "content": "该矩形元件以原点为中心放大。",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "构造一个新的初始矩形，使得同样放大至2倍后，能通过测试用例。",
+            "response": ""
+          }
+        }
+      }
+    },
+    {
+      "case_id": "1",
+      "question": "Explain by visualPilot:1",
+      "answer": "{\"debugging\":{\"Question for Debugging\":{\"Q1\":{\"type\":\"number\",\"content\":\"故障发生在哪一行代码？\",\"response\":\"1\"},\"Q2\":{\"type\":\"text\",\"content\":\"简单解释故障的具体原因。\",\"response\":\"\"},\"Q3\":{\"type\":\"text\",\"content\":\"提供一种修复该故障的方案（简述即可）。\",\"response\":\"\"}}},\"understanding\":{\"Question for Understanding\":{\"Q1\":{\"type\":\"judgement\",\"content\":\"本例中，src_left和actual_left始终相等。\",\"response\":\"false\"},\"Q2\":{\"type\":\"text\",\"content\":\"输入变为初始1*1的单通道矩形[[5]]，故障代码的运行结果是？\",\"response\":\"\"}}}}",
+      "single_start": "2026-03-29 11:33:25.008",
+      "single_end": "2026-03-29 11:33:29.928",
+      "debugging_start": "2026-03-29 11:33:25.008",
+      "debugging_end": "2026-03-29 11:33:28.216",
+      "understanding_start": "2026-03-29 11:33:28.216",
+      "understanding_end": "2026-03-29 11:33:29.928",
+      "debugging_query_answer": {
+        "Question for Debugging": {
+          "Q1": {
+            "type": "number",
+            "content": "故障发生在哪一行代码？",
+            "response": "1"
+          },
+          "Q2": {
+            "type": "text",
+            "content": "简单解释故障的具体原因。",
+            "response": ""
+          },
+          "Q3": {
+            "type": "text",
+            "content": "提供一种修复该故障的方案（简述即可）。",
+            "response": ""
+          }
+        }
+      },
+      "understanding_query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "judgement",
+            "content": "本例中，src_left和actual_left始终相等。",
+            "response": "false"
+          },
+          "Q2": {
+            "type": "text",
+            "content": "输入变为初始1*1的单通道矩形[[5]]，故障代码的运行结果是？",
+            "response": ""
+          }
+        }
+      },
+      "query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "judgement",
+            "content": "本例中，src_left和actual_left始终相等。",
+            "response": "false"
+          },
+          "Q2": {
+            "type": "text",
+            "content": "输入变为初始1*1的单通道矩形[[5]]，故障代码的运行结果是？",
+            "response": ""
+          }
+        }
+      }
+    },
+    {
+      "case_id": "2",
+      "question": "Explain by visualPilot:2",
+      "answer": "{\"debugging\":{\"Question for Debugging\":{\"Q1\":{\"type\":\"number\",\"content\":\"故障发生在哪一行代码？\",\"response\":\"\"},\"Q2\":{\"type\":\"text\",\"content\":\"简单解释故障的具体原因。\",\"response\":\"\"},\"Q3\":{\"type\":\"text\",\"content\":\"提供一种修复该故障的方案（简述即可）。\",\"response\":\"\"}}},\"understanding\":{\"Question for Understanding\":{\"Q1\":{\"type\":\"text\",\"content\":\"在第一个时间点（idx=0），Layer 0 和 Layer 1 实际使用的是哪两个 window？\",\"response\":\"\"},\"Q2\":{\"type\":\"text\",\"content\":\"为什么当前结果的长度减少（3 → 2）？是在哪个阶段被截断的？\",\"response\":\"\"}}}}",
+      "single_start": "2026-03-29 11:33:30.744",
+      "single_end": "2026-03-29 11:33:32.856",
+      "debugging_start": "2026-03-29 11:33:30.744",
+      "debugging_end": "2026-03-29 11:33:32.736",
+      "understanding_start": "2026-03-29 11:33:32.736",
+      "understanding_end": "2026-03-29 11:33:32.856",
+      "debugging_query_answer": {
+        "Question for Debugging": {
+          "Q1": {
+            "type": "number",
+            "content": "故障发生在哪一行代码？",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "简单解释故障的具体原因。",
+            "response": ""
+          },
+          "Q3": {
+            "type": "text",
+            "content": "提供一种修复该故障的方案（简述即可）。",
+            "response": ""
+          }
+        }
+      },
+      "understanding_query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "text",
+            "content": "在第一个时间点（idx=0），Layer 0 和 Layer 1 实际使用的是哪两个 window？",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "为什么当前结果的长度减少（3 → 2）？是在哪个阶段被截断的？",
+            "response": ""
+          }
+        }
+      },
+      "query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "text",
+            "content": "在第一个时间点（idx=0），Layer 0 和 Layer 1 实际使用的是哪两个 window？",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "为什么当前结果的长度减少（3 → 2）？是在哪个阶段被截断的？",
+            "response": ""
+          }
+        }
+      }
+    },
+    {
+      "case_id": "3",
+      "question": "Explain by visualPilot:3",
+      "answer": "{\"debugging\":{\"Question for Debugging\":{\"Q1\":{\"type\":\"number\",\"content\":\"故障发生在哪一行代码？\",\"response\":\"\"},\"Q2\":{\"type\":\"text\",\"content\":\"简单解释故障的具体原因。\",\"response\":\"\"},\"Q3\":{\"type\":\"text\",\"content\":\"提供一种修复该故障的方案（简述即可）。\",\"response\":\"\"}}},\"understanding\":{\"Question for Understanding\":{\"Q1\":{\"type\":\"text\",\"content\":\"对于当前代码，padding由哪些因素决定，具体的计算方式是什么？\",\"response\":\"\"},\"Q2\":{\"type\":\"judgement\",\"content\":\"程序先计算padding，padding触及到poly时才发出碰撞警告\",\"response\":\"\"},\"Q3\":{\"type\":\"text\",\"content\":\"已知原始测试用例中 poly_a 和 poly_b 在 X 轴上物理间距为 0.6。在不改变 poly_b 的情况下，仅将 poly_a 沿 X 轴正方向平移多少距离，能使程序刚好判定为 '不碰撞'（False）？\",\"response\":\"\"}}}}",
+      "single_start": "2026-03-29 11:33:33.544",
+      "single_end": "2026-03-29 11:33:36.616",
+      "debugging_start": "2026-03-29 11:33:33.544",
+      "debugging_end": "2026-03-29 11:33:36.481",
+      "understanding_start": "2026-03-29 11:33:36.481",
+      "understanding_end": "2026-03-29 11:33:36.616",
+      "debugging_query_answer": {
+        "Question for Debugging": {
+          "Q1": {
+            "type": "number",
+            "content": "故障发生在哪一行代码？",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "简单解释故障的具体原因。",
+            "response": ""
+          },
+          "Q3": {
+            "type": "text",
+            "content": "提供一种修复该故障的方案（简述即可）。",
+            "response": ""
+          }
+        }
+      },
+      "understanding_query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "text",
+            "content": "对于当前代码，padding由哪些因素决定，具体的计算方式是什么？",
+            "response": ""
+          },
+          "Q2": {
+            "type": "judgement",
+            "content": "程序先计算padding，padding触及到poly时才发出碰撞警告",
+            "response": ""
+          },
+          "Q3": {
+            "type": "text",
+            "content": "已知原始测试用例中 poly_a 和 poly_b 在 X 轴上物理间距为 0.6。在不改变 poly_b 的情况下，仅将 poly_a 沿 X 轴正方向平移多少距离，能使程序刚好判定为 '不碰撞'（False）？",
+            "response": ""
+          }
+        }
+      },
+      "query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "text",
+            "content": "对于当前代码，padding由哪些因素决定，具体的计算方式是什么？",
+            "response": ""
+          },
+          "Q2": {
+            "type": "judgement",
+            "content": "程序先计算padding，padding触及到poly时才发出碰撞警告",
+            "response": ""
+          },
+          "Q3": {
+            "type": "text",
+            "content": "已知原始测试用例中 poly_a 和 poly_b 在 X 轴上物理间距为 0.6。在不改变 poly_b 的情况下，仅将 poly_a 沿 X 轴正方向平移多少距离，能使程序刚好判定为 '不碰撞'（False）？",
+            "response": ""
+          }
+        }
+      }
+    }
+  ],
+  "rtlx": [
+    {
+      "group": "Explain by visualPilot",
+      "scores": {
+        "mentalDemand": 80,
+        "physicalDemand": 85,
+        "temporalDemand": 90,
+        "performance": 85,
+        "effort": 70,
+        "frustration": 90
+      },
+      "feedback": "",
+      "submitted_at": "2026-03-29 11:33:48.681"
+    }
+  ]
+}

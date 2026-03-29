@@ -1,0 +1,101 @@
+{
+  "name": "execution-visual-study",
+  "displayName": "Execution_Visual_Study",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "workspaceContains:__debug/trace/trace.json"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "visualpilot-trace-explorer",
+          "title": "Execution_Visual_Study",
+          "icon": "$(debug-alt)"
+        }
+      ]
+    },
+    "views": {
+      "visualpilot-trace-explorer": [
+        {
+          "type": "webview",
+          "id": "ttdTraceView",
+          "name": "Trace Timeline"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "Execution_Visual_Study.openTraceViewer",
+        "title": "Execution_Visual_Study: Open Trace Viewer",
+        "icon": "$(debug-alt)"
+      },
+      {
+        "command": "Execution_Visual_Study.refreshTrace",
+        "title": "Execution_Visual_Study: Refresh Trace Data",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "Execution_Visual_Study.explainByVisualPilot",
+        "title": "Execution_Visual_Study: Explain by visualPilot",
+        "icon": "$(play)"
+      },
+      {
+        "command": "Execution_Visual_Study.explainByPythonTutor",
+        "title": "Execution_Visual_Study: Explain by pythonTutor",
+        "icon": "$(book)"
+      },
+      {
+        "command": "Execution_Visual_Study.explainByLlmGeneration",
+        "title": "Execution_Visual_Study: Explain by llmGeneration",
+        "icon": "$(hubot)"
+      },
+      {
+        "command": "Execution_Visual_Study.showMainStudy",
+        "title": "Execution_Visual_Study: Show Main Study",
+        "icon": "$(layout)"
+      },
+      {
+        "command": "Execution_Visual_Study.terminateSlides",
+        "title": "Execution_Visual_Study: Terminate Slides Overlay",
+        "icon": "$(stop-circle)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "Execution_Visual_Study.refreshTrace",
+          "when": "view == ttdTraceView",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.110.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "eslint": "^9.36.0",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}

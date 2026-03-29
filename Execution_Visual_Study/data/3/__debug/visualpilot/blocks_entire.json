@@ -1,0 +1,287 @@
+{
+  "file": "src/test_collision.py",
+  "method": "src.test_collision.detect_collision#1",
+  "blocks": [
+    {
+      "id": 1,
+      "name": "AABB",
+      "method": "src.test_collision.detect_collision#1",
+      "start": 0.0,
+      "end": 11.35,
+      "cstart": 1,
+      "cend": 14,
+      "tstart": 5,
+      "tend": 50,
+      "trace_start": {
+        "id": 5,
+        "order": 5,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 2,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": [],
+        "assigned_to": [
+          "debug"
+        ],
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      },
+      "trace_end": {
+        "id": 50,
+        "order": 50,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 13,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": [
+          2.6,
+          6.6,
+          1,
+          2
+        ],
+        "assigned_to": [
+          "box_b"
+        ],
+        "assigned_from": [
+          "ret_compute_aabb_6"
+        ],
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Padding",
+      "method": "src.test_collision.detect_collision#1",
+      "start": 11.35,
+      "end": 24.1,
+      "cstart": 15,
+      "cend": 31,
+      "tstart": 51,
+      "tend": 111,
+      "trace_start": {
+        "id": 51,
+        "order": 51,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 18,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": {
+          "__class__": "function",
+          "__fields__": {}
+        },
+        "assigned_to": [
+          "compute_padding"
+        ],
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      },
+      "trace_end": {
+        "id": 111,
+        "order": 111,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 31,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": [
+          1.0,
+          0.5
+        ],
+        "assigned_to": [
+          "pad_b"
+        ],
+        "assigned_from": [
+          "ret_compute_padding_13"
+        ],
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Expansion",
+      "method": "src.test_collision.detect_collision#1",
+      "start": 24.1,
+      "end": 34.85,
+      "cstart": 33,
+      "cend": 47,
+      "tstart": 112,
+      "tend": 132,
+      "trace_start": {
+        "id": 112,
+        "order": 112,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 36,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": {
+          "__class__": "function",
+          "__fields__": {}
+        },
+        "assigned_to": [
+          "pad_box"
+        ],
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      },
+      "trace_end": {
+        "id": 132,
+        "order": 132,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 47,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": [
+          1.6,
+          7.6,
+          0.5,
+          2.5
+        ],
+        "assigned_to": [
+          "padded_b"
+        ],
+        "assigned_from": [
+          "ret_pad_box_18"
+        ],
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Logging",
+      "method": "src.test_collision.detect_collision#1",
+      "start": 34.85,
+      "end": 40.65,
+      "cstart": 49,
+      "cend": 51,
+      "tstart": 133,
+      "tend": 135,
+      "trace_start": {
+        "id": 133,
+        "order": 133,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 49,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      },
+      "trace_end": {
+        "id": 135,
+        "order": 135,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 51,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Overlap",
+      "method": "src.test_collision.detect_collision#1",
+      "start": 40.65,
+      "end": 51.45,
+      "cstart": 53,
+      "cend": 65,
+      "tstart": 136,
+      "tend": 145,
+      "trace_start": {
+        "id": 136,
+        "order": 136,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 56,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": {
+          "__class__": "function",
+          "__fields__": {}
+        },
+        "assigned_to": [
+          "overlap"
+        ],
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      },
+      "trace_end": {
+        "id": 145,
+        "order": 145,
+        "src": "src/test_collision.py",
+        "method_name": "src.test_collision.detect_collision#1",
+        "line": 65,
+        "status": 0.0,
+        "depth": 3,
+        "event_type": "line",
+        "read": [],
+        "written": [],
+        "is_exception": false,
+        "is_control_hit": true,
+        "return_value": true,
+        "assigned_to": [
+          "__return__"
+        ],
+        "assigned_from": [
+          "ret_overlap_19"
+        ],
+        "method_name_legacy": "detect_collision",
+        "code_key": "src.test_collision.detect_collision#1"
+      }
+    }
+  ]
+}

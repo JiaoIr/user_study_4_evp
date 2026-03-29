@@ -1,0 +1,26 @@
+{
+  "src.test_reflect.__main__#72": {
+    "whole": "72    if __name__ == \"__main__\":\n73        test_reflect_padding()",
+    "start_line": 72,
+    "end_line": 73,
+    "src_path": "src/test_reflect.py"
+  },
+  "src.test_reflect.test_reflect_padding#53": {
+    "whole": "53    def test_reflect_padding():\n54        \"\"\"\n55        测试对象：apply_reflect_padding 函数\n56        对图像进行镜像填充。例如 pad_size=2:\n57        [a, b, c] -> [b, a, | a, b, c, | c, b]\n58        image: 二维矩阵\n59        \"\"\"\n60        img = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n61        res = apply_reflect_padding(img, 2, channel_mode=False)\n62        for i in range(len(res)):\n63            print(res[i])\n64    \n65        assert len(res) == 7\n66        assert len(res[0]) == 7\n67        assert [row[2:5] for row in res[2:5]] == img\n68    \n69        assert res[2][0:2] == [2, 1]\n70        assert res[2][5:7] == [3, 2]",
+    "start_line": 53,
+    "end_line": 70,
+    "src_path": "src/test_reflect.py"
+  },
+  "src.test_reflect.apply_reflect_padding#1": {
+    "whole": "1    def apply_reflect_padding(image, pad_size, channel_mode=False):\n2        h = len(image)\n3        w = len(image[0])\n4        is_3d = channel_mode and isinstance(image[0][0], list)\n5        depth = len(image[0][0]) if is_3d else 1\n6    \n7        stride_h = h + 2 * pad_size\n8        stride_w = w + 2 * pad_size\n9        \n10        if is_3d:\n11            padded = [[[0 for _ in range(depth)] for _ in range(stride_w)] for _ in range(stride_h)]\n12        else:\n13            padded = [[0 for _ in range(stride_w)] for _ in range(stride_h)]\n14        \n15        for r in range(h):\n16            target_r = r + pad_size\n17            for c in range(w):\n18                target_c = c + pad_size\n19                if is_3d:\n20                    for d in range(depth):\n21                        padded[target_r][target_c][d] = image[r][c][d]\n22                else:\n23                    padded[target_r][target_c] = image[r][c]\n24                \n25        for j in range(pad_size):\n26            inv_jdx = pad_size - 1 - j\n27            src_left = pad_size + (j + 1)\n28            src_right = (pad_size + w - 1) - (j + 1)\n29            \n30            actual_left = src_left if src_left < stride_w else (stride_w - 1)\n31            actual_right = src_right if src_right >= 0 else 0\n32    \n33            for r_idx in range(stride_h):\n34                if is_3d:\n35                    for d in range(depth):\n36                        padded[r_idx][inv_jdx][d] = padded[r_idx][actual_left][d]\n37                        padded[r_idx][pad_size + w + j][d] = padded[r_idx][actual_right][d]\n38                else:\n39                    padded[r_idx][inv_jdx] = padded[r_idx][actual_left]\n40                    padded[r_idx][pad_size + w + j] = padded[r_idx][actual_right]\n41    \n42        checksum = 0\n43        for r in range(stride_h):\n44            for c in range(stride_w):\n45                val = padded[r][c]\n46                if is_3d:\n47                    checksum += sum(val)\n48                else:\n49                    checksum += val\n50                    \n51        return padded",
+    "start_line": 1,
+    "end_line": 51,
+    "src_path": "src/test_reflect.py"
+  },
+  "src.test_reflect.<listcomp>#13": {
+    "whole": "13            padded = [[0 for _ in range(stride_w)] for _ in range(stride_h)]",
+    "start_line": 13,
+    "end_line": 13,
+    "src_path": "src/test_reflect.py"
+  }
+}

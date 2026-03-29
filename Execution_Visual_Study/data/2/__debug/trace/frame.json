@@ -1,0 +1,567 @@
+{
+  "segment_count": 6,
+  "start_step": 6,
+  "key_points": [
+    8,
+    14,
+    60,
+    95,
+    96
+  ],
+  "capture_steps": [
+    5,
+    8,
+    14,
+    60,
+    95,
+    96
+  ],
+  "capture_point_details": [
+    {
+      "point_no": 0,
+      "step": 5,
+      "type": "start_before"
+    },
+    {
+      "point_no": 1,
+      "step": 8,
+      "type": "key_point"
+    },
+    {
+      "point_no": 2,
+      "step": 14,
+      "type": "key_point"
+    },
+    {
+      "point_no": 3,
+      "step": 60,
+      "type": "key_point"
+    },
+    {
+      "point_no": 4,
+      "step": 95,
+      "type": "key_point"
+    },
+    {
+      "point_no": 5,
+      "step": 96,
+      "type": "key_point"
+    }
+  ],
+  "segments": [
+    [
+      6,
+      8
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      15,
+      60
+    ],
+    [
+      61,
+      95
+    ],
+    [
+      96,
+      96
+    ]
+  ],
+  "executed_steps": 84,
+  "executed_raw_steps": 88,
+  "frames": [
+    {
+      "order": 1,
+      "step": 5,
+      "point_no": 0,
+      "point_type": "start_before",
+      "event_type": "call",
+      "src": "src/test_aggregate.py",
+      "line": 62,
+      "method_name": "test_aggregate_sensor_layers",
+      "depth": 2,
+      "variables": {
+        "locals": [
+          {
+            "name": "s_layers",
+            "type": "list",
+            "value": [
+              [
+                10,
+                20,
+                30,
+                40
+              ],
+              [
+                10,
+                20,
+                30,
+                40
+              ]
+            ],
+            "id": "s_layers"
+          }
+        ],
+        "globals": [
+          {
+            "name": "aggregate_sensor_layers",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "aggregate_sensor_layers"
+          },
+          {
+            "name": "test_aggregate_sensor_layers",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_aggregate_sensor_layers"
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "step": 8,
+      "point_no": 1,
+      "point_type": "key_point",
+      "event_type": "line",
+      "src": "src/test_aggregate.py",
+      "line": 15,
+      "method_name": "aggregate_sensor_layers",
+      "depth": 3,
+      "variables": {
+        "locals": [
+          {
+            "name": "layers",
+            "type": "list",
+            "value": [
+              [
+                10,
+                20,
+                30,
+                40
+              ],
+              [
+                10,
+                20,
+                30,
+                40
+              ]
+            ],
+            "id": "layers"
+          },
+          {
+            "name": "window_size",
+            "type": "int",
+            "value": 2,
+            "id": "window_size"
+          },
+          {
+            "name": "step",
+            "type": "int",
+            "value": 1,
+            "id": "step"
+          },
+          {
+            "name": "num_layers",
+            "type": "int",
+            "value": 2,
+            "id": "num_layers"
+          },
+          {
+            "name": "output_signal",
+            "type": "list",
+            "value": [],
+            "id": "output_signal"
+          },
+          {
+            "name": "layer_results",
+            "type": "list",
+            "value": [],
+            "id": "layer_results"
+          },
+          {
+            "name": "offsets",
+            "type": "list",
+            "value": [],
+            "id": "offsets"
+          }
+        ],
+        "globals": [
+          {
+            "name": "aggregate_sensor_layers",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "aggregate_sensor_layers"
+          },
+          {
+            "name": "test_aggregate_sensor_layers",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_aggregate_sensor_layers"
+          }
+        ]
+      },
+      "return_value": [],
+      "assigned_to": [
+        "offsets"
+      ]
+    },
+    {
+      "order": 3,
+      "step": 14,
+      "point_no": 2,
+      "point_type": "key_point",
+      "event_type": "line",
+      "src": "src/test_aggregate.py",
+      "line": 22,
+      "method_name": "aggregate_sensor_layers",
+      "depth": 3,
+      "variables": {
+        "locals": [
+          {
+            "name": "layers",
+            "type": "list",
+            "value": [
+              [
+                10,
+                20,
+                30,
+                40
+              ],
+              [
+                10,
+                20,
+                30,
+                40
+              ]
+            ],
+            "id": "layers"
+          },
+          {
+            "name": "window_size",
+            "type": "int",
+            "value": 2,
+            "id": "window_size"
+          },
+          {
+            "name": "step",
+            "type": "int",
+            "value": 1,
+            "id": "step"
+          },
+          {
+            "name": "num_layers",
+            "type": "int",
+            "value": 2,
+            "id": "num_layers"
+          },
+          {
+            "name": "output_signal",
+            "type": "list",
+            "value": [],
+            "id": "output_signal"
+          },
+          {
+            "name": "layer_results",
+            "type": "list",
+            "value": [],
+            "id": "layer_results"
+          },
+          {
+            "name": "offsets",
+            "type": "list",
+            "value": [
+              0,
+              1
+            ],
+            "id": "offsets"
+          },
+          {
+            "name": "i",
+            "type": "int",
+            "value": 0,
+            "id": "i"
+          },
+          {
+            "name": "debug_history",
+            "type": "list",
+            "value": [],
+            "id": "debug_history"
+          },
+          {
+            "name": "data",
+            "type": "list",
+            "value": [
+              10,
+              20,
+              30,
+              40
+            ],
+            "id": "data"
+          }
+        ],
+        "globals": [
+          {
+            "name": "aggregate_sensor_layers",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "aggregate_sensor_layers"
+          },
+          {
+            "name": "test_aggregate_sensor_layers",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_aggregate_sensor_layers"
+          }
+        ]
+      },
+      "return_value": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "assigned_to": [
+        "data"
+      ]
+    },
+    {
+      "order": 4,
+      "step": 60,
+      "point_no": 3,
+      "point_type": "key_point",
+      "event_type": "line",
+      "src": "src/test_aggregate.py",
+      "line": 46,
+      "method_name": "aggregate_sensor_layers",
+      "depth": 3,
+      "variables": {
+        "locals": [
+          {
+            "name": "layers",
+            "type": "list",
+            "value": [
+              [
+                10,
+                20,
+                30,
+                40
+              ],
+              [
+                10,
+                20,
+                30,
+                40
+              ]
+            ],
+            "id": "layers"
+          },
+          {
+            "name": "window_size",
+            "type": "int",
+            "value": 2,
+            "id": "window_size"
+          },
+          {
+            "name": "step",
+            "type": "int",
+            "value": 1,
+            "id": "step"
+          },
+          {
+            "name": "num_layers",
+            "type": "int",
+            "value": 2,
+            "id": "num_layers"
+          },
+          {
+            "name": "output_signal",
+            "type": "list",
+            "value": [],
+            "id": "output_signal"
+          },
+          {
+            "name": "layer_results",
+            "type": "list",
+            "value": [
+              [
+                15.0,
+                25.0,
+                35.0
+              ],
+              [
+                25.0,
+                35.0
+              ]
+            ],
+            "id": "layer_results"
+          },
+          {
+            "name": "offsets",
+            "type": "list",
+            "value": [
+              0,
+              1
+            ],
+            "id": "offsets"
+          },
+          {
+            "name": "i",
+            "type": "int",
+            "value": 1,
+            "id": "i"
+          },
+          {
+            "name": "debug_history",
+            "type": "list",
+            "value": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                1
+              ],
+              [
+                0,
+                2,
+                2
+              ],
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "id": "debug_history"
+          },
+          {
+            "name": "data",
+            "type": "list",
+            "value": [
+              10,
+              20,
+              30,
+              40
+            ],
+            "id": "data"
+          },
+          {
+            "name": "res",
+            "type": "list",
+            "value": [
+              25.0,
+              35.0
+            ],
+            "id": "res"
+          },
+          {
+            "name": "start",
+            "type": "int",
+            "value": 2,
+            "id": "start"
+          },
+          {
+            "name": "effective_start",
+            "type": "int",
+            "value": 3,
+            "id": "effective_start"
+          },
+          {
+            "name": "window",
+            "type": "list",
+            "value": [
+              30,
+              40
+            ],
+            "id": "window"
+          },
+          {
+            "name": "min_len",
+            "type": "int",
+            "value": 2,
+            "id": "min_len"
+          },
+          {
+            "name": "idx",
+            "type": "int",
+            "value": 0,
+            "id": "idx"
+          },
+          {
+            "name": "combined",
+            "type": "float",
+            "value": 15.0,
+            "id": "combined"
+          },
+          {
+            "name": "layer_idx",
+            "type": "int",
+            "value": 1,
+            "id": "layer_idx"
+          },
+          {
+            "name": "shifted_idx",
+            "type": "int",
+            "value": 1,
+            "id": "shifted_idx"
+          }
+        ],
+        "globals": [
+          {
+            "name": "aggregate_sensor_layers",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "aggregate_sensor_layers"
+          },
+          {
+            "name": "test_aggregate_sensor_layers",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_aggregate_sensor_layers"
+          }
+        ]
+      }
+    }
+  ]
+}

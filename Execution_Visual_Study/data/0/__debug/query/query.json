@@ -1,0 +1,26 @@
+{
+    "Question for Debugging": {
+        "Q1": {
+            "type": "number",
+            "content": "故障发生在哪一行代码？"
+        },
+        "Q2": {
+            "type": "text",
+            "content": "简单解释故障的具体原因。"
+        },
+        "Q3": {
+            "type": "text",
+            "content": "提供一种修复该故障的方案（简述即可）。"
+        }
+    },
+    "Question for Understanding": {
+        "Q1": {
+            "type": "judgement",
+            "content": "该矩形元件以原点为中心放大。"
+        },
+        "Q2": {
+            "type": "text",
+            "content": "构造一个新的初始矩形，使得同样放大至2倍后，能通过测试用例。"
+        }
+    }
+}

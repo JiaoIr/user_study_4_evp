@@ -1,0 +1,26 @@
+{
+    "Question for Debugging": {
+        "Q1": {
+            "type": "number",
+            "content": "故障发生在哪一行代码？"
+        },
+        "Q2": {
+            "type": "text",
+            "content": "简单解释故障的具体原因。"
+        },
+        "Q3": {
+            "type": "text",
+            "content": "提供一种修复该故障的方案（简述即可）。"
+        }
+    },
+    "Question for Understanding": {
+        "Q1": {
+            "type": "judgement",
+            "content": "本例中，src_left和actual_left始终相等。"
+        },
+        "Q2": {
+            "type": "text",
+            "content": "输入变为初始1*1的单通道矩形[[5]]，故障代码的运行结果是？"
+        }
+    }
+}

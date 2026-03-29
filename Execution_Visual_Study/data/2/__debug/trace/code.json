@@ -1,0 +1,20 @@
+{
+  "src.test_aggregate.__main__#69": {
+    "whole": "69    if __name__ == \"__main__\":\n70        test_aggregate_sensor_layers()",
+    "start_line": 69,
+    "end_line": 70,
+    "src_path": "src/test_aggregate.py"
+  },
+  "src.test_aggregate.test_aggregate_sensor_layers#56": {
+    "whole": "56    def test_aggregate_sensor_layers():\n57        s_layers = [\n58            [10, 20, 30, 40],\n59            [10, 20, 30, 40]\n60        ]\n61    \n62        actual = aggregate_sensor_layers(s_layers, 2, 1)\n63    \n64        expected = [30.0, 50.0, 70.0]\n65    \n66        assert actual == expected, f\"Assertion failed: expected {expected}, got {actual}\"",
+    "start_line": 56,
+    "end_line": 66,
+    "src_path": "src/test_aggregate.py"
+  },
+  "src.test_aggregate.aggregate_sensor_layers#1": {
+    "whole": "1    def aggregate_sensor_layers(layers, window_size, step):\n2        \"\"\"\n3        layers: list of list (e.g., [Layer0, Layer1])\n4    \n5        We simulate real-world asynchronous sensors:\n6        - Each layer may have a small phase shift\n7        - Then signals are fused assuming aligned time steps\n8        \"\"\"\n9    \n10        num_layers = len(layers)\n11        output_signal = []\n12        layer_results = []\n13    \n14        # Step 0: compute per-layer offsets (simulating phase shift)\n15        offsets = []\n16        for i in range(num_layers):\n17            offsets.append(i % 2)\n18    \n19        debug_history = []\n20    \n21        for i in range(num_layers):\n22            data = layers[i]\n23            res = []\n24    \n25            for start in range(0, len(data) - window_size + 1, step):\n26                effective_start = start + offsets[i]\n27    \n28                debug_history.append((i, start, effective_start))\n29    \n30                if effective_start + window_size > len(data):\n31                    break\n32    \n33                window = data[effective_start : effective_start + window_size]\n34                res.append(sum(window) / len(window))\n35    \n36            layer_results.append(res)\n37    \n38        # Step 2: aggregate across layers\n39        min_len = min(len(r) for r in layer_results)\n40    \n41        for idx in range(min_len):\n42            combined = 0\n43            for layer_idx in range(num_layers):\n44                shifted_idx = idx + layer_idx\n45    \n46                if shifted_idx >= len(layer_results[layer_idx]):\n47                    continue\n48    \n49                combined += layer_results[layer_idx][shifted_idx]\n50    \n51            output_signal.append(combined)\n52    \n53        return output_signal",
+    "start_line": 1,
+    "end_line": 53,
+    "src_path": "src/test_aggregate.py"
+  }
+}

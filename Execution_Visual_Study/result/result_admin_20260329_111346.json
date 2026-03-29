@@ -1,0 +1,19 @@
+{
+  "id": "admin",
+  "main_start": "2026-03-29 11:13:46.290",
+  "main_end": "",
+  "answer": [
+    {
+      "case_id": "1",
+      "question": "Explain by llmGeneration:1",
+      "answer": "",
+      "single_start": "2026-03-29 11:13:53.698",
+      "single_end": "",
+      "debugging_start": "2026-03-29 11:13:53.698",
+      "debugging_end": "",
+      "understanding_start": "",
+      "understanding_end": ""
+    }
+  ],
+  "rtlx": []
+}

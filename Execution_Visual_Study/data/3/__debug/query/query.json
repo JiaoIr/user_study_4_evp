@@ -1,0 +1,30 @@
+{
+    "Question for Debugging": {
+        "Q1": {
+            "type": "number",
+            "content": "故障发生在哪一行代码？"
+        },
+        "Q2": {
+            "type": "text",
+            "content": "简单解释故障的具体原因。"
+        },
+        "Q3": {
+            "type": "text",
+            "content": "提供一种修复该故障的方案（简述即可）。"
+        }
+    },
+    "Question for Understanding": {
+        "Q1": {
+            "type": "text",
+            "content": "对于当前代码，padding由哪些因素决定，具体的计算方式是什么？"
+        },
+        "Q2": {
+            "type": "judgement",
+            "content": "程序先计算padding，padding触及到poly时才发出碰撞警告"
+        },
+        "Q3": {
+            "type": "text",
+            "content": "已知原始测试用例中 poly_a 和 poly_b 在 X 轴上物理间距为 0.6。在不改变 poly_b 的情况下，仅将 poly_a 沿 X 轴正方向平移多少距离，能使程序刚好判定为 '不碰撞'（False）？"
+        }
+    }
+}

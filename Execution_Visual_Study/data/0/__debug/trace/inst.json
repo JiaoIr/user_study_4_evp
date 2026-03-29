@@ -1,0 +1,19 @@
+{
+    "language": "python",
+    "entry_point": "src/test_scale.py",
+    "filters": {
+        "include": [
+            "src"
+        ],
+        "exclude": [
+            "tests",
+            "venv",
+            ".git",
+            ".idea",
+            "__pycache__"
+        ]
+    },
+    "workspace_root": "e:\\workplace\\uist\\data\\0",
+    "test_case_start_line": 71,
+    "test_case_end_line": 71
+}

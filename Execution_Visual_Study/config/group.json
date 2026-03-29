@@ -1,0 +1,34 @@
+{
+    "G1": [
+        {
+            "type": "Explain by visualPilot",
+            "item": ["0", "1", "2", "3"]
+        }
+    ],
+    "G2": [
+        {
+            "type": "Explain by pythonTutor",
+            "item": ["0", "1", "2", "3"]
+        }
+    ],
+    "G3": [
+        {
+            "type": "Explain by llmGeneration",
+            "item": ["0", "1", "2", "3"]
+        }
+    ],
+    "admin": [
+        {
+            "type": "Explain by visualPilot",
+            "item": ["0", "1", "2", "3"]
+        },
+        {
+            "type": "Explain by pythonTutor",
+            "item": ["0", "1", "2", "3"]
+        },
+        {
+            "type": "Explain by llmGeneration",
+            "item": ["0", "1", "2", "3"]
+        }
+    ]
+}

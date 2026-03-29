@@ -1,0 +1,26 @@
+{
+    "Question for Debugging": {
+        "Q1": {
+            "content": "故障发生在哪一行代码？",
+            "result": "    第 49 行和第 50 行。\r\n    > 具体代码为：\r\n    > `x2 = center_y + offset_x`\r\n    > `y2 = center_y + offset_y`"
+        },
+        "Q2": {
+            "content": "简单解释故障的具体原因。",
+            "result": "    在计算新的右下角坐标 `x2` 时，误用了 `center_y` 而非 `center_x`。这导致 `x2` 的计算逻辑错误，除非中心点的 $x$ 和 $y$ 坐标刚好相等，否则 `x2` 的值会偏离预期，进而导致断言（Assertion）失败。"
+        },
+        "Q3": {
+            "content": "提供一种修复该故障的方案（简述即可）。",
+            "result": "    将第 49 行的 `center_y` 改为 `center_x`。\r\n    修正后：`x2 = center_x + offset_x`"
+        }
+    },
+    "Question for Understanding": {
+        "Q1": {
+            "content": "该矩形元件以原点为中心放大。",
+            "result": "    **错误（False）**。\r\n    该算法通过计算 `center_x` 和 `center_y`，然后基于中心点向四周扩展 `offset`，因此它是**以矩形自身的中心点为中心**进行缩放的，而不是以坐标系原点 $(0, 0)$ 为中心。"
+        },
+        "Q2": {
+            "content": "构造一个新的初始矩形，使得同样放大至2倍后，能通过测试用例。",
+            "result": "    要使当前的错误代码通过测试，必须满足 `center_x == center_y`（这样 `center_y + offset_x` 就会等同于正确的 `center_x + offset_x`）。\r\n    **构造方案示例：**\r\n    `chart.set_viewport(0, 0, 100, 100)`\r\n    > **解释：** 此时中心点为 $(50, 50)$。由于 $x$ 和 $y$ 的中心坐标相同，第 49 行的赋值错误（使用了 `center_y`）在数值上不会产生偏差，从而能通过 `vp.get_center_x() == 100` 的断言。"
+        }
+    }
+}

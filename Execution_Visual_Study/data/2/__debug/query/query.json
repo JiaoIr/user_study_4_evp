@@ -1,0 +1,26 @@
+{
+    "Question for Debugging": {
+        "Q1": {
+            "type": "number",
+            "content": "故障发生在哪一行代码？"
+        },
+        "Q2": {
+            "type": "text",
+            "content": "简单解释故障的具体原因。"
+        },
+        "Q3": {
+            "type": "text",
+            "content": "提供一种修复该故障的方案（简述即可）。"
+        }
+    },
+    "Question for Understanding": {
+        "Q1": {
+            "type": "text",
+            "content": "在第一个时间点（idx=0），Layer 0 和 Layer 1 实际使用的是哪两个 window？"
+        },
+        "Q2": {
+            "type": "text",
+            "content": "为什么当前结果的长度减少（3 → 2）？是在哪个阶段被截断的？"
+        }
+    }
+}

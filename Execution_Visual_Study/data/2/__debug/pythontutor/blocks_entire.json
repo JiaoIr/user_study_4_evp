@@ -1,0 +1,960 @@
+{
+  "file": "src/test_aggregate.py",
+  "method": "src.test_aggregate.aggregate_sensor_layers#1",
+  "blocks": [
+    {
+      "id": 1,
+      "name": "step 1",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": -1,
+      "cend": -1,
+      "tstart": -1,
+      "tend": -1
+    },
+    {
+      "id": 2,
+      "name": "step 2",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 56,
+      "cend": 56,
+      "tstart": -1,
+      "tend": -1
+    },
+    {
+      "id": 3,
+      "name": "step 3",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 69,
+      "cend": 69,
+      "tstart": -1,
+      "tend": -1
+    },
+    {
+      "id": 4,
+      "name": "step 4",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 70,
+      "cend": 70,
+      "tstart": 1,
+      "tend": 1
+    },
+    {
+      "id": 5,
+      "name": "step 5",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 56,
+      "cend": 56,
+      "tstart": -1,
+      "tend": -1
+    },
+    {
+      "id": 6,
+      "name": "step 6",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 58,
+      "cend": 58,
+      "tstart": 2,
+      "tend": 2
+    },
+    {
+      "id": 7,
+      "name": "step 7",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 59,
+      "cend": 59,
+      "tstart": 3,
+      "tend": 3
+    },
+    {
+      "id": 8,
+      "name": "step 8",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 57,
+      "cend": 57,
+      "tstart": 4,
+      "tend": 4
+    },
+    {
+      "id": 9,
+      "name": "step 9",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 62,
+      "cend": 62,
+      "tstart": 5,
+      "tend": 5
+    },
+    {
+      "id": 10,
+      "name": "step 10",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 1,
+      "cend": 1,
+      "tstart": -1,
+      "tend": -1
+    },
+    {
+      "id": 11,
+      "name": "step 11",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 10,
+      "cend": 10,
+      "tstart": 6,
+      "tend": 6
+    },
+    {
+      "id": 12,
+      "name": "step 12",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 11,
+      "cend": 11,
+      "tstart": 7,
+      "tend": 7
+    },
+    {
+      "id": 13,
+      "name": "step 13",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 12,
+      "cend": 12,
+      "tstart": 8,
+      "tend": 8
+    },
+    {
+      "id": 14,
+      "name": "step 14",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 15,
+      "cend": 15,
+      "tstart": 9,
+      "tend": 9
+    },
+    {
+      "id": 15,
+      "name": "step 15",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 16,
+      "cend": 16,
+      "tstart": 10,
+      "tend": 10
+    },
+    {
+      "id": 16,
+      "name": "step 16",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 17,
+      "cend": 17,
+      "tstart": 11,
+      "tend": 11
+    },
+    {
+      "id": 17,
+      "name": "step 17",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 16,
+      "cend": 16,
+      "tstart": 12,
+      "tend": 12
+    },
+    {
+      "id": 18,
+      "name": "step 18",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 17,
+      "cend": 17,
+      "tstart": 13,
+      "tend": 13
+    },
+    {
+      "id": 19,
+      "name": "step 19",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 16,
+      "cend": 16,
+      "tstart": 14,
+      "tend": 14
+    },
+    {
+      "id": 20,
+      "name": "step 20",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 19,
+      "cend": 19,
+      "tstart": 15,
+      "tend": 15
+    },
+    {
+      "id": 21,
+      "name": "step 21",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 21,
+      "cend": 21,
+      "tstart": 16,
+      "tend": 16
+    },
+    {
+      "id": 22,
+      "name": "step 22",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 22,
+      "cend": 22,
+      "tstart": 17,
+      "tend": 17
+    },
+    {
+      "id": 23,
+      "name": "step 23",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 23,
+      "cend": 23,
+      "tstart": 18,
+      "tend": 18
+    },
+    {
+      "id": 24,
+      "name": "step 24",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 25,
+      "cend": 25,
+      "tstart": 19,
+      "tend": 19
+    },
+    {
+      "id": 25,
+      "name": "step 25",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 26,
+      "cend": 26,
+      "tstart": 20,
+      "tend": 20
+    },
+    {
+      "id": 26,
+      "name": "step 26",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 28,
+      "cend": 28,
+      "tstart": 21,
+      "tend": 21
+    },
+    {
+      "id": 27,
+      "name": "step 27",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 30,
+      "cend": 30,
+      "tstart": 22,
+      "tend": 22
+    },
+    {
+      "id": 28,
+      "name": "step 28",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 33,
+      "cend": 33,
+      "tstart": 23,
+      "tend": 23
+    },
+    {
+      "id": 29,
+      "name": "step 29",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 34,
+      "cend": 34,
+      "tstart": 24,
+      "tend": 24
+    },
+    {
+      "id": 30,
+      "name": "step 30",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 25,
+      "cend": 25,
+      "tstart": 25,
+      "tend": 25
+    },
+    {
+      "id": 31,
+      "name": "step 31",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 26,
+      "cend": 26,
+      "tstart": 26,
+      "tend": 26
+    },
+    {
+      "id": 32,
+      "name": "step 32",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 28,
+      "cend": 28,
+      "tstart": 27,
+      "tend": 27
+    },
+    {
+      "id": 33,
+      "name": "step 33",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 30,
+      "cend": 30,
+      "tstart": 28,
+      "tend": 28
+    },
+    {
+      "id": 34,
+      "name": "step 34",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 33,
+      "cend": 33,
+      "tstart": 29,
+      "tend": 29
+    },
+    {
+      "id": 35,
+      "name": "step 35",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 34,
+      "cend": 34,
+      "tstart": 30,
+      "tend": 30
+    },
+    {
+      "id": 36,
+      "name": "step 36",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 25,
+      "cend": 25,
+      "tstart": 31,
+      "tend": 31
+    },
+    {
+      "id": 37,
+      "name": "step 37",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 26,
+      "cend": 26,
+      "tstart": 32,
+      "tend": 32
+    },
+    {
+      "id": 38,
+      "name": "step 38",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 28,
+      "cend": 28,
+      "tstart": 33,
+      "tend": 33
+    },
+    {
+      "id": 39,
+      "name": "step 39",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 30,
+      "cend": 30,
+      "tstart": 34,
+      "tend": 34
+    },
+    {
+      "id": 40,
+      "name": "step 40",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 33,
+      "cend": 33,
+      "tstart": 35,
+      "tend": 35
+    },
+    {
+      "id": 41,
+      "name": "step 41",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 34,
+      "cend": 34,
+      "tstart": 36,
+      "tend": 36
+    },
+    {
+      "id": 42,
+      "name": "step 42",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 25,
+      "cend": 25,
+      "tstart": 37,
+      "tend": 37
+    },
+    {
+      "id": 43,
+      "name": "step 43",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 36,
+      "cend": 36,
+      "tstart": 38,
+      "tend": 38
+    },
+    {
+      "id": 44,
+      "name": "step 44",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 21,
+      "cend": 21,
+      "tstart": 39,
+      "tend": 39
+    },
+    {
+      "id": 45,
+      "name": "step 45",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 22,
+      "cend": 22,
+      "tstart": 40,
+      "tend": 40
+    },
+    {
+      "id": 46,
+      "name": "step 46",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 23,
+      "cend": 23,
+      "tstart": 41,
+      "tend": 41
+    },
+    {
+      "id": 47,
+      "name": "step 47",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 25,
+      "cend": 25,
+      "tstart": 42,
+      "tend": 42
+    },
+    {
+      "id": 48,
+      "name": "step 48",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 26,
+      "cend": 26,
+      "tstart": 43,
+      "tend": 43
+    },
+    {
+      "id": 49,
+      "name": "step 49",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 28,
+      "cend": 28,
+      "tstart": 44,
+      "tend": 44
+    },
+    {
+      "id": 50,
+      "name": "step 50",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 30,
+      "cend": 30,
+      "tstart": 45,
+      "tend": 45
+    },
+    {
+      "id": 51,
+      "name": "step 51",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 33,
+      "cend": 33,
+      "tstart": 46,
+      "tend": 46
+    },
+    {
+      "id": 52,
+      "name": "step 52",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 34,
+      "cend": 34,
+      "tstart": 47,
+      "tend": 47
+    },
+    {
+      "id": 53,
+      "name": "step 53",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 25,
+      "cend": 25,
+      "tstart": 48,
+      "tend": 48
+    },
+    {
+      "id": 54,
+      "name": "step 54",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 26,
+      "cend": 26,
+      "tstart": 49,
+      "tend": 49
+    },
+    {
+      "id": 55,
+      "name": "step 55",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 28,
+      "cend": 28,
+      "tstart": 50,
+      "tend": 50
+    },
+    {
+      "id": 56,
+      "name": "step 56",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 30,
+      "cend": 30,
+      "tstart": 51,
+      "tend": 51
+    },
+    {
+      "id": 57,
+      "name": "step 57",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 33,
+      "cend": 33,
+      "tstart": 52,
+      "tend": 52
+    },
+    {
+      "id": 58,
+      "name": "step 58",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 34,
+      "cend": 34,
+      "tstart": 53,
+      "tend": 53
+    },
+    {
+      "id": 59,
+      "name": "step 59",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 25,
+      "cend": 25,
+      "tstart": 54,
+      "tend": 54
+    },
+    {
+      "id": 60,
+      "name": "step 60",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 26,
+      "cend": 26,
+      "tstart": 55,
+      "tend": 55
+    },
+    {
+      "id": 61,
+      "name": "step 61",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 28,
+      "cend": 28,
+      "tstart": 56,
+      "tend": 56
+    },
+    {
+      "id": 62,
+      "name": "step 62",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 30,
+      "cend": 30,
+      "tstart": 57,
+      "tend": 57
+    },
+    {
+      "id": 63,
+      "name": "step 63",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 31,
+      "cend": 31,
+      "tstart": 58,
+      "tend": 58
+    },
+    {
+      "id": 64,
+      "name": "step 64",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 36,
+      "cend": 36,
+      "tstart": 59,
+      "tend": 59
+    },
+    {
+      "id": 65,
+      "name": "step 65",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 21,
+      "cend": 21,
+      "tstart": 60,
+      "tend": 60
+    },
+    {
+      "id": 66,
+      "name": "step 66",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 61,
+      "tend": 61
+    },
+    {
+      "id": 67,
+      "name": "step 67",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 62,
+      "tend": 62
+    },
+    {
+      "id": 68,
+      "name": "step 68",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 63,
+      "tend": 63
+    },
+    {
+      "id": 69,
+      "name": "step 69",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 64,
+      "tend": 64
+    },
+    {
+      "id": 70,
+      "name": "step 70",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 65,
+      "tend": 65
+    },
+    {
+      "id": 71,
+      "name": "step 71",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 66,
+      "tend": 66
+    },
+    {
+      "id": 72,
+      "name": "step 72",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 67,
+      "tend": 67
+    },
+    {
+      "id": 73,
+      "name": "step 73",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 68,
+      "tend": 68
+    },
+    {
+      "id": 74,
+      "name": "step 74",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 69,
+      "tend": 69
+    },
+    {
+      "id": 75,
+      "name": "step 75",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 39,
+      "cend": 39,
+      "tstart": 70,
+      "tend": 70
+    },
+    {
+      "id": 76,
+      "name": "step 76",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 41,
+      "cend": 41,
+      "tstart": 71,
+      "tend": 71
+    },
+    {
+      "id": 77,
+      "name": "step 77",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 42,
+      "cend": 42,
+      "tstart": 72,
+      "tend": 72
+    },
+    {
+      "id": 78,
+      "name": "step 78",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 43,
+      "cend": 43,
+      "tstart": 73,
+      "tend": 73
+    },
+    {
+      "id": 79,
+      "name": "step 79",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 44,
+      "cend": 44,
+      "tstart": 74,
+      "tend": 74
+    },
+    {
+      "id": 80,
+      "name": "step 80",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 46,
+      "cend": 46,
+      "tstart": 75,
+      "tend": 75
+    },
+    {
+      "id": 81,
+      "name": "step 81",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 49,
+      "cend": 49,
+      "tstart": 76,
+      "tend": 76
+    },
+    {
+      "id": 82,
+      "name": "step 82",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 43,
+      "cend": 43,
+      "tstart": 77,
+      "tend": 77
+    },
+    {
+      "id": 83,
+      "name": "step 83",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 44,
+      "cend": 44,
+      "tstart": 78,
+      "tend": 78
+    },
+    {
+      "id": 84,
+      "name": "step 84",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 46,
+      "cend": 46,
+      "tstart": 79,
+      "tend": 79
+    },
+    {
+      "id": 85,
+      "name": "step 85",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 49,
+      "cend": 49,
+      "tstart": 80,
+      "tend": 80
+    },
+    {
+      "id": 86,
+      "name": "step 86",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 43,
+      "cend": 43,
+      "tstart": 81,
+      "tend": 81
+    },
+    {
+      "id": 87,
+      "name": "step 87",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 51,
+      "cend": 51,
+      "tstart": 82,
+      "tend": 82
+    },
+    {
+      "id": 88,
+      "name": "step 88",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 41,
+      "cend": 41,
+      "tstart": 83,
+      "tend": 83
+    },
+    {
+      "id": 89,
+      "name": "step 89",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 42,
+      "cend": 42,
+      "tstart": 84,
+      "tend": 84
+    },
+    {
+      "id": 90,
+      "name": "step 90",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 43,
+      "cend": 43,
+      "tstart": 85,
+      "tend": 85
+    },
+    {
+      "id": 91,
+      "name": "step 91",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 44,
+      "cend": 44,
+      "tstart": 86,
+      "tend": 86
+    },
+    {
+      "id": 92,
+      "name": "step 92",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 46,
+      "cend": 46,
+      "tstart": 87,
+      "tend": 87
+    },
+    {
+      "id": 93,
+      "name": "step 93",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 49,
+      "cend": 49,
+      "tstart": 88,
+      "tend": 88
+    },
+    {
+      "id": 94,
+      "name": "step 94",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 43,
+      "cend": 43,
+      "tstart": 89,
+      "tend": 89
+    },
+    {
+      "id": 95,
+      "name": "step 95",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 44,
+      "cend": 44,
+      "tstart": 90,
+      "tend": 90
+    },
+    {
+      "id": 96,
+      "name": "step 96",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 46,
+      "cend": 46,
+      "tstart": 91,
+      "tend": 91
+    },
+    {
+      "id": 97,
+      "name": "step 97",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 47,
+      "cend": 47,
+      "tstart": 92,
+      "tend": 92
+    },
+    {
+      "id": 98,
+      "name": "step 98",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 43,
+      "cend": 43,
+      "tstart": 93,
+      "tend": 93
+    },
+    {
+      "id": 99,
+      "name": "step 99",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 51,
+      "cend": 51,
+      "tstart": 94,
+      "tend": 94
+    },
+    {
+      "id": 100,
+      "name": "step 100",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 41,
+      "cend": 41,
+      "tstart": 95,
+      "tend": 95
+    },
+    {
+      "id": 101,
+      "name": "step 101",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 53,
+      "cend": 53,
+      "tstart": 96,
+      "tend": 96
+    },
+    {
+      "id": 102,
+      "name": "step 102",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 53,
+      "cend": 53,
+      "tstart": -1,
+      "tend": -1
+    },
+    {
+      "id": 103,
+      "name": "step 103",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 64,
+      "cend": 64,
+      "tstart": 99,
+      "tend": 99
+    },
+    {
+      "id": 104,
+      "name": "step 104",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 66,
+      "cend": 66,
+      "tstart": 100,
+      "tend": 100
+    },
+    {
+      "id": 105,
+      "name": "step 105",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 66,
+      "cend": 66,
+      "tstart": 101,
+      "tend": 101
+    },
+    {
+      "id": 106,
+      "name": "step 106",
+      "method": "src.test_aggregate.aggregate_sensor_layers#1",
+      "cstart": 66,
+      "cend": 66,
+      "tstart": -1,
+      "tend": -1
+    }
+  ]
+}

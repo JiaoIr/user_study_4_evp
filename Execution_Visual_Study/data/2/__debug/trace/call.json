@@ -1,0 +1,48 @@
+[
+  {
+    "method_name": "src.test_aggregate.test_aggregate_sensor_layers#56",
+    "line": 70,
+    "call_trace": 0,
+    "start": 1,
+    "end": 102,
+    "call_list": [
+      1
+    ]
+  },
+  {
+    "method_name": "src.test_aggregate.aggregate_sensor_layers#1",
+    "line": 62,
+    "call_trace": 1,
+    "start": 5,
+    "end": 97,
+    "call_list": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "method_name": "src.test_aggregate.<genexpr>#39",
+    "line": 39,
+    "call_trace": 2,
+    "start": 61,
+    "end": 63,
+    "call_list": []
+  },
+  {
+    "method_name": "src.test_aggregate.<genexpr>#39",
+    "line": 39,
+    "call_trace": 3,
+    "start": 64,
+    "end": 66,
+    "call_list": []
+  },
+  {
+    "method_name": "src.test_aggregate.<genexpr>#39",
+    "line": 39,
+    "call_trace": 4,
+    "start": 67,
+    "end": 69,
+    "call_list": []
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "id": "admin",
+  "main_start": "2026-03-29 11:20:35.035",
+  "main_end": "",
+  "answer": [
+    {
+      "case_id": "0",
+      "question": "Explain by llmGeneration:0",
+      "answer": "{\"debugging\":{\"Question for Debugging\":{\"Q1\":{\"type\":\"number\",\"content\":\"故障发生在哪一行代码？\",\"response\":\"\"},\"Q2\":{\"type\":\"text\",\"content\":\"简单解释故障的具体原因。\",\"response\":\"\"},\"Q3\":{\"type\":\"text\",\"content\":\"提供一种修复该故障的方案（简述即可）。\",\"response\":\"\"}}},\"understanding\":{\"Question for Understanding\":{\"Q1\":{\"type\":\"judgement\",\"content\":\"该矩形元件以原点为中心放大。\",\"response\":\"\"},\"Q2\":{\"type\":\"text\",\"content\":\"构造一个新的初始矩形，使得同样放大至2倍后，能通过测试用例。\",\"response\":\"\"}}}}",
+      "single_start": "2026-03-29 11:20:35.802",
+      "single_end": "2026-03-29 11:20:41.731",
+      "debugging_start": "2026-03-29 11:20:35.802",
+      "debugging_end": "2026-03-29 11:20:41.579",
+      "understanding_start": "2026-03-29 11:20:41.579",
+      "understanding_end": "2026-03-29 11:20:41.731",
+      "debugging_query_answer": {
+        "Question for Debugging": {
+          "Q1": {
+            "type": "number",
+            "content": "故障发生在哪一行代码？",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "简单解释故障的具体原因。",
+            "response": ""
+          },
+          "Q3": {
+            "type": "text",
+            "content": "提供一种修复该故障的方案（简述即可）。",
+            "response": ""
+          }
+        }
+      },
+      "understanding_query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "judgement",
+            "content": "该矩形元件以原点为中心放大。",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "构造一个新的初始矩形，使得同样放大至2倍后，能通过测试用例。",
+            "response": ""
+          }
+        }
+      },
+      "query_answer": {
+        "Question for Understanding": {
+          "Q1": {
+            "type": "judgement",
+            "content": "该矩形元件以原点为中心放大。",
+            "response": ""
+          },
+          "Q2": {
+            "type": "text",
+            "content": "构造一个新的初始矩形，使得同样放大至2倍后，能通过测试用例。",
+            "response": ""
+          }
+        }
+      }
+    }
+  ],
+  "rtlx": []
+}

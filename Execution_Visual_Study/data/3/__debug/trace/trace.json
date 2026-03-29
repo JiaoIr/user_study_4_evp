@@ -1,0 +1,3415 @@
+{
+  "trace": [
+    {
+      "id": 1,
+      "order": 1,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.__main__#83",
+      "line": 84,
+      "status": 0.0,
+      "depth": 1,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "test_collision",
+      "method_name_legacy": "<module>",
+      "code_key": "src.test_collision.__main__#83"
+    },
+    {
+      "id": 2,
+      "order": 2,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.test_collision#71",
+      "line": 72,
+      "status": 0.0,
+      "depth": 2,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "assigned_to": [
+        "poly_a"
+      ],
+      "method_name_legacy": "test_collision",
+      "code_key": "src.test_collision.test_collision#71"
+    },
+    {
+      "id": 3,
+      "order": 3,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.test_collision#71",
+      "line": 73,
+      "status": 0.0,
+      "depth": 2,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        [
+          2.6,
+          1
+        ],
+        [
+          6.6,
+          1
+        ],
+        [
+          6.6,
+          2
+        ],
+        [
+          2.6,
+          2
+        ]
+      ],
+      "assigned_to": [
+        "poly_b"
+      ],
+      "method_name_legacy": "test_collision",
+      "code_key": "src.test_collision.test_collision#71"
+    },
+    {
+      "id": 4,
+      "order": 4,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.test_collision#71",
+      "line": 75,
+      "status": 0.0,
+      "depth": 2,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "detect_collision",
+      "method_name_legacy": "test_collision",
+      "code_key": "src.test_collision.test_collision#71"
+    },
+    {
+      "id": 5,
+      "order": 5,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 2,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [],
+      "assigned_to": [
+        "debug"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 6,
+      "order": 6,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 7,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "__class__": "function",
+        "__fields__": {}
+      },
+      "assigned_to": [
+        "compute_aabb"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 7,
+      "order": 7,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 12,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_aabb",
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 8,
+      "order": 8,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 9,
+      "order": 9,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        0
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 10,
+      "order": 10,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2,
+        0
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 11,
+      "order": 11,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2,
+        4
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 12,
+      "order": 12,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        4
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 13,
+      "order": 13,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 14,
+      "order": 14,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "return_value": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "assigned_to": [
+        "ret_listcomp_4"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 15,
+      "order": 15,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "assigned_to": [
+        "xs"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 16,
+      "order": 16,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "assigned_to": [
+        "xs"
+      ],
+      "assigned_from": [
+        "ret_listcomp_4"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 17,
+      "order": 17,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 18,
+      "order": 18,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        0
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 19,
+      "order": 19,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2,
+        0
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 20,
+      "order": 20,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2,
+        4
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 21,
+      "order": 21,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        4
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 22,
+      "order": 22,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 23,
+      "order": 23,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "return_value": [
+        0,
+        0,
+        4,
+        4
+      ],
+      "assigned_to": [
+        "ret_listcomp_5"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 24,
+      "order": 24,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        0,
+        4,
+        4
+      ],
+      "assigned_to": [
+        "ys"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 25,
+      "order": 25,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        0,
+        4,
+        4
+      ],
+      "assigned_to": [
+        "ys"
+      ],
+      "assigned_from": [
+        "ret_listcomp_5"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 26,
+      "order": 26,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 10,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "assigned_to": [
+        "__return__"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 27,
+      "order": 27,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 12,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_aabb",
+      "return_value": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "assigned_to": [
+        "ret_compute_aabb_3"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 28,
+      "order": 28,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 12,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "assigned_to": [
+        "box_a"
+      ],
+      "assigned_from": [
+        "ret_compute_aabb_3"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 29,
+      "order": 29,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 13,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_aabb",
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 30,
+      "order": 30,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 31,
+      "order": 31,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        1
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 32,
+      "order": 32,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        6.6,
+        1
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 33,
+      "order": 33,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        6.6,
+        2
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 34,
+      "order": 34,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        2
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 35,
+      "order": 35,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 36,
+      "order": 36,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "return_value": [
+        2.6,
+        6.6,
+        6.6,
+        2.6
+      ],
+      "assigned_to": [
+        "ret_listcomp_7"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 37,
+      "order": 37,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        6.6,
+        6.6,
+        2.6
+      ],
+      "assigned_to": [
+        "xs"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 38,
+      "order": 38,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        6.6,
+        6.6,
+        2.6
+      ],
+      "assigned_to": [
+        "xs"
+      ],
+      "assigned_from": [
+        "ret_listcomp_7"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 39,
+      "order": 39,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 40,
+      "order": 40,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        1
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 41,
+      "order": 41,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        6.6,
+        1
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 42,
+      "order": 42,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        6.6,
+        2
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 43,
+      "order": 43,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        2
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 44,
+      "order": 44,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 45,
+      "order": 45,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "return_value": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "assigned_to": [
+        "ret_listcomp_8"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 46,
+      "order": 46,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "assigned_to": [
+        "ys"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 47,
+      "order": 47,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "assigned_to": [
+        "ys"
+      ],
+      "assigned_from": [
+        "ret_listcomp_8"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 48,
+      "order": 48,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 10,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        6.6,
+        1,
+        2
+      ],
+      "assigned_to": [
+        "__return__"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 49,
+      "order": 49,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 13,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_aabb",
+      "return_value": [
+        2.6,
+        6.6,
+        1,
+        2
+      ],
+      "assigned_to": [
+        "ret_compute_aabb_6"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 50,
+      "order": 50,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 13,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        6.6,
+        1,
+        2
+      ],
+      "assigned_to": [
+        "box_b"
+      ],
+      "assigned_from": [
+        "ret_compute_aabb_6"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 51,
+      "order": 51,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 18,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "__class__": "function",
+        "__fields__": {}
+      },
+      "assigned_to": [
+        "compute_padding"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 52,
+      "order": 52,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 30,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_padding",
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 53,
+      "order": 53,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 19,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_aabb",
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 54,
+      "order": 54,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 55,
+      "order": 55,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        0
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 56,
+      "order": 56,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2,
+        0
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 57,
+      "order": 57,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2,
+        4
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 58,
+      "order": 58,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        4
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 59,
+      "order": 59,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 60,
+      "order": 60,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "return_value": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "assigned_to": [
+        "ret_listcomp_11"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 61,
+      "order": 61,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "assigned_to": [
+        "xs"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 62,
+      "order": 62,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "assigned_to": [
+        "xs"
+      ],
+      "assigned_from": [
+        "ret_listcomp_11"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 63,
+      "order": 63,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 64,
+      "order": 64,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        0
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 65,
+      "order": 65,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2,
+        0
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 66,
+      "order": 66,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2,
+        4
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 67,
+      "order": 67,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        4
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 68,
+      "order": 68,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 69,
+      "order": 69,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "return_value": [
+        0,
+        0,
+        4,
+        4
+      ],
+      "assigned_to": [
+        "ret_listcomp_12"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 70,
+      "order": 70,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        0,
+        4,
+        4
+      ],
+      "assigned_to": [
+        "ys"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 71,
+      "order": 71,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        0,
+        4,
+        4
+      ],
+      "assigned_to": [
+        "ys"
+      ],
+      "assigned_from": [
+        "ret_listcomp_12"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 72,
+      "order": 72,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 10,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "assigned_to": [
+        "__return__"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 73,
+      "order": 73,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 19,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_aabb",
+      "return_value": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "assigned_to": [
+        "ret_compute_aabb_10"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 74,
+      "order": 74,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 19,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "min_x": 0,
+        "max_x": 2,
+        "min_y": 0,
+        "max_y": 4
+      },
+      "assigned_to": [
+        "min_x",
+        "max_x",
+        "min_y",
+        "max_y"
+      ],
+      "assigned_from": [
+        "ret_compute_aabb_10"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 75,
+      "order": 75,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 20,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": 2,
+      "assigned_to": [
+        "width"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 76,
+      "order": 76,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 21,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": 4,
+      "assigned_to": [
+        "height"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 77,
+      "order": 77,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 23,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": 0.5,
+      "assigned_to": [
+        "base"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 78,
+      "order": 78,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 25,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 79,
+      "order": 79,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 28,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0.5,
+        1.0
+      ],
+      "assigned_to": [
+        "__return__"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 80,
+      "order": 80,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 30,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_padding",
+      "return_value": [
+        0.5,
+        1.0
+      ],
+      "assigned_to": [
+        "ret_compute_padding_9"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 81,
+      "order": 81,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 30,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        0.5,
+        1.0
+      ],
+      "assigned_to": [
+        "pad_a"
+      ],
+      "assigned_from": [
+        "ret_compute_padding_9"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 82,
+      "order": 82,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 31,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_padding",
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 83,
+      "order": 83,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 19,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_aabb",
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 84,
+      "order": 84,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 85,
+      "order": 85,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        1
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 86,
+      "order": 86,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        6.6,
+        1
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 87,
+      "order": 87,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        6.6,
+        2
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 88,
+      "order": 88,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        2
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 89,
+      "order": 89,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#8",
+      "line": 8,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#8"
+    },
+    {
+      "id": 90,
+      "order": 90,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "return_value": [
+        2.6,
+        6.6,
+        6.6,
+        2.6
+      ],
+      "assigned_to": [
+        "ret_listcomp_15"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 91,
+      "order": 91,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        6.6,
+        6.6,
+        2.6
+      ],
+      "assigned_to": [
+        "xs"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 92,
+      "order": 92,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 8,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        6.6,
+        6.6,
+        2.6
+      ],
+      "assigned_to": [
+        "xs"
+      ],
+      "assigned_from": [
+        "ret_listcomp_15"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 93,
+      "order": 93,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 94,
+      "order": 94,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        1
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 95,
+      "order": 95,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        6.6,
+        1
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 96,
+      "order": 96,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        6.6,
+        2
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 97,
+      "order": 97,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        2
+      ],
+      "assigned_to": [
+        "p"
+      ],
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 98,
+      "order": 98,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.<listcomp>#9",
+      "line": 9,
+      "status": 0.0,
+      "depth": 6,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "<listcomp>",
+      "code_key": "src.test_collision.<listcomp>#9"
+    },
+    {
+      "id": 99,
+      "order": 99,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "<listcomp>",
+      "return_value": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "assigned_to": [
+        "ret_listcomp_16"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 100,
+      "order": 100,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "assigned_to": [
+        "ys"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 101,
+      "order": 101,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 9,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "assigned_to": [
+        "ys"
+      ],
+      "assigned_from": [
+        "ret_listcomp_16"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 102,
+      "order": 102,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_aabb#7",
+      "line": 10,
+      "status": 0.0,
+      "depth": 5,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        2.6,
+        6.6,
+        1,
+        2
+      ],
+      "assigned_to": [
+        "__return__"
+      ],
+      "method_name_legacy": "compute_aabb",
+      "code_key": "src.test_collision.compute_aabb#7"
+    },
+    {
+      "id": 103,
+      "order": 103,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 19,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_aabb",
+      "return_value": [
+        2.6,
+        6.6,
+        1,
+        2
+      ],
+      "assigned_to": [
+        "ret_compute_aabb_14"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 104,
+      "order": 104,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 19,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "min_x": 2.6,
+        "max_x": 6.6,
+        "min_y": 1,
+        "max_y": 2
+      },
+      "assigned_to": [
+        "min_x",
+        "max_x",
+        "min_y",
+        "max_y"
+      ],
+      "assigned_from": [
+        "ret_compute_aabb_14"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 105,
+      "order": 105,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 20,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": 3.9999999999999996,
+      "assigned_to": [
+        "width"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 106,
+      "order": 106,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 21,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": 1,
+      "assigned_to": [
+        "height"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 107,
+      "order": 107,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 23,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": 0.5,
+      "assigned_to": [
+        "base"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 108,
+      "order": 108,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 25,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 109,
+      "order": 109,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.compute_padding#18",
+      "line": 26,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        1.0,
+        0.5
+      ],
+      "assigned_to": [
+        "__return__"
+      ],
+      "method_name_legacy": "compute_padding",
+      "code_key": "src.test_collision.compute_padding#18"
+    },
+    {
+      "id": 110,
+      "order": 110,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 31,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "compute_padding",
+      "return_value": [
+        1.0,
+        0.5
+      ],
+      "assigned_to": [
+        "ret_compute_padding_13"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 111,
+      "order": 111,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 31,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        1.0,
+        0.5
+      ],
+      "assigned_to": [
+        "pad_b"
+      ],
+      "assigned_from": [
+        "ret_compute_padding_13"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 112,
+      "order": 112,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 36,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "__class__": "function",
+        "__fields__": {}
+      },
+      "assigned_to": [
+        "pad_box"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 113,
+      "order": 113,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 46,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "pad_box",
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 114,
+      "order": 114,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#37",
+      "line": 37,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "min_x": 0,
+        "max_x": 2,
+        "min_y": 0,
+        "max_y": 4
+      },
+      "assigned_to": [
+        "min_x",
+        "max_x",
+        "min_y",
+        "max_y"
+      ],
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#37"
+    },
+    {
+      "id": 115,
+      "order": 115,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#38",
+      "line": 38,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "pad_x": 0.5,
+        "pad_y": 1.0
+      },
+      "assigned_to": [
+        "pad_x",
+        "pad_y"
+      ],
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#38"
+    },
+    {
+      "id": 116,
+      "order": 116,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#40",
+      "line": 40,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#40"
+    },
+    {
+      "id": 117,
+      "order": 117,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#41",
+      "line": 41,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#41"
+    },
+    {
+      "id": 118,
+      "order": 118,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#42",
+      "line": 42,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#42"
+    },
+    {
+      "id": 119,
+      "order": 119,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#43",
+      "line": 43,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#43"
+    },
+    {
+      "id": 120,
+      "order": 120,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#39",
+      "line": 39,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        -0.5,
+        2.5,
+        -1.0,
+        5.0
+      ],
+      "assigned_to": [
+        "__return__"
+      ],
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#39"
+    },
+    {
+      "id": 121,
+      "order": 121,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 46,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "pad_box",
+      "return_value": [
+        -0.5,
+        2.5,
+        -1.0,
+        5.0
+      ],
+      "assigned_to": [
+        "ret_pad_box_17"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 122,
+      "order": 122,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 46,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        -0.5,
+        2.5,
+        -1.0,
+        5.0
+      ],
+      "assigned_to": [
+        "padded_a"
+      ],
+      "assigned_from": [
+        "ret_pad_box_17"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 123,
+      "order": 123,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 47,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "pad_box",
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 124,
+      "order": 124,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#37",
+      "line": 37,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "min_x": 2.6,
+        "max_x": 6.6,
+        "min_y": 1,
+        "max_y": 2
+      },
+      "assigned_to": [
+        "min_x",
+        "max_x",
+        "min_y",
+        "max_y"
+      ],
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#37"
+    },
+    {
+      "id": 125,
+      "order": 125,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#38",
+      "line": 38,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "pad_x": 1.0,
+        "pad_y": 0.5
+      },
+      "assigned_to": [
+        "pad_x",
+        "pad_y"
+      ],
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#38"
+    },
+    {
+      "id": 126,
+      "order": 126,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#40",
+      "line": 40,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#40"
+    },
+    {
+      "id": 127,
+      "order": 127,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#41",
+      "line": 41,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#41"
+    },
+    {
+      "id": 128,
+      "order": 128,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#42",
+      "line": 42,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#42"
+    },
+    {
+      "id": 129,
+      "order": 129,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#43",
+      "line": 43,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#43"
+    },
+    {
+      "id": 130,
+      "order": 130,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.pad_box#39",
+      "line": 39,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        1.6,
+        7.6,
+        0.5,
+        2.5
+      ],
+      "assigned_to": [
+        "__return__"
+      ],
+      "method_name_legacy": "pad_box",
+      "code_key": "src.test_collision.pad_box#39"
+    },
+    {
+      "id": 131,
+      "order": 131,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 47,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "pad_box",
+      "return_value": [
+        1.6,
+        7.6,
+        0.5,
+        2.5
+      ],
+      "assigned_to": [
+        "ret_pad_box_18"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 132,
+      "order": 132,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 47,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": [
+        1.6,
+        7.6,
+        0.5,
+        2.5
+      ],
+      "assigned_to": [
+        "padded_b"
+      ],
+      "assigned_from": [
+        "ret_pad_box_18"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 133,
+      "order": 133,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 49,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 134,
+      "order": 134,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 50,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 135,
+      "order": 135,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 51,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 136,
+      "order": 136,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 56,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "__class__": "function",
+        "__fields__": {}
+      },
+      "assigned_to": [
+        "overlap"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 137,
+      "order": 137,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 65,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "call",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "overlap",
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 138,
+      "order": 138,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.overlap#57",
+      "line": 57,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "min_x1": -0.5,
+        "max_x1": 2.5,
+        "min_y1": -1.0,
+        "max_y1": 5.0
+      },
+      "assigned_to": [
+        "min_x1",
+        "max_x1",
+        "min_y1",
+        "max_y1"
+      ],
+      "method_name_legacy": "overlap",
+      "code_key": "src.test_collision.overlap#57"
+    },
+    {
+      "id": 139,
+      "order": 139,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.overlap#58",
+      "line": 58,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": {
+        "min_x2": 1.6,
+        "max_x2": 7.6,
+        "min_y2": 0.5,
+        "max_y2": 2.5
+      },
+      "assigned_to": [
+        "min_x2",
+        "max_x2",
+        "min_y2",
+        "max_y2"
+      ],
+      "method_name_legacy": "overlap",
+      "code_key": "src.test_collision.overlap#58"
+    },
+    {
+      "id": 140,
+      "order": 140,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.overlap#60",
+      "line": 60,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": true,
+      "assigned_to": [
+        "x_overlap"
+      ],
+      "method_name_legacy": "overlap",
+      "code_key": "src.test_collision.overlap#60"
+    },
+    {
+      "id": 141,
+      "order": 141,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.overlap#61",
+      "line": 61,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": true,
+      "assigned_to": [
+        "y_overlap"
+      ],
+      "method_name_legacy": "overlap",
+      "code_key": "src.test_collision.overlap#61"
+    },
+    {
+      "id": 142,
+      "order": 142,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.overlap#63",
+      "line": 63,
+      "status": 0.0,
+      "depth": 4,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": true,
+      "assigned_to": [
+        "__return__"
+      ],
+      "method_name_legacy": "overlap",
+      "code_key": "src.test_collision.overlap#63"
+    },
+    {
+      "id": 143,
+      "order": 143,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 65,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "overlap",
+      "return_value": true,
+      "assigned_to": [
+        "ret_overlap_19"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 144,
+      "order": 144,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 65,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": true,
+      "assigned_to": [],
+      "assigned_from": [
+        "ret_overlap_19"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 145,
+      "order": 145,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.detect_collision#1",
+      "line": 65,
+      "status": 0.0,
+      "depth": 3,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": true,
+      "assigned_to": [
+        "__return__"
+      ],
+      "assigned_from": [
+        "ret_overlap_19"
+      ],
+      "method_name_legacy": "detect_collision",
+      "code_key": "src.test_collision.detect_collision#1"
+    },
+    {
+      "id": 146,
+      "order": 146,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.test_collision#71",
+      "line": 75,
+      "status": 0.0,
+      "depth": 2,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "detect_collision",
+      "return_value": true,
+      "assigned_to": [
+        "ret_detect_collision_2"
+      ],
+      "method_name_legacy": "test_collision",
+      "code_key": "src.test_collision.test_collision#71"
+    },
+    {
+      "id": 147,
+      "order": 147,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.test_collision#71",
+      "line": 75,
+      "status": 0.0,
+      "depth": 2,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": true,
+      "assigned_to": [
+        "result"
+      ],
+      "assigned_from": [
+        "ret_detect_collision_2"
+      ],
+      "method_name_legacy": "test_collision",
+      "code_key": "src.test_collision.test_collision#71"
+    },
+    {
+      "id": 148,
+      "order": 148,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.test_collision#71",
+      "line": 77,
+      "status": 0.0,
+      "depth": 2,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "return_value": false,
+      "assigned_to": [
+        "expected"
+      ],
+      "method_name_legacy": "test_collision",
+      "code_key": "src.test_collision.test_collision#71"
+    },
+    {
+      "id": 149,
+      "order": 149,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.test_collision#71",
+      "line": 79,
+      "status": 0.0,
+      "depth": 2,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "test_collision",
+      "code_key": "src.test_collision.test_collision#71"
+    },
+    {
+      "id": 150,
+      "order": 150,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.test_collision#71",
+      "line": 80,
+      "status": 0.0,
+      "depth": 2,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "method_name_legacy": "test_collision",
+      "code_key": "src.test_collision.test_collision#71"
+    },
+    {
+      "id": 151,
+      "order": 151,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.test_collision#71",
+      "line": 80,
+      "status": 1.0,
+      "depth": 2,
+      "event_type": "exception",
+      "read": [],
+      "written": [],
+      "is_exception": true,
+      "is_control_hit": true,
+      "exception_type": "AssertionError",
+      "exception_message": "True != False",
+      "method_name_legacy": "test_collision",
+      "code_key": "src.test_collision.test_collision#71"
+    },
+    {
+      "id": 152,
+      "order": 152,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.__main__#83",
+      "line": 84,
+      "status": 0.0,
+      "depth": 1,
+      "event_type": "ret",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "call_target": "test_collision",
+      "assigned_to": [],
+      "method_name_legacy": "<module>",
+      "code_key": "src.test_collision.__main__#83"
+    },
+    {
+      "id": 153,
+      "order": 153,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.__main__#83",
+      "line": 84,
+      "status": 0.0,
+      "depth": 1,
+      "event_type": "line",
+      "read": [],
+      "written": [],
+      "is_exception": false,
+      "is_control_hit": true,
+      "assigned_to": [],
+      "method_name_legacy": "<module>",
+      "code_key": "src.test_collision.__main__#83"
+    },
+    {
+      "id": 154,
+      "order": 154,
+      "src": "src/test_collision.py",
+      "method_name": "src.test_collision.__main__#83",
+      "line": 84,
+      "status": 1.0,
+      "depth": 1,
+      "event_type": "exception",
+      "read": [],
+      "written": [],
+      "is_exception": true,
+      "is_control_hit": true,
+      "exception_type": "AssertionError",
+      "exception_message": "True != False",
+      "method_name_legacy": "<module>",
+      "code_key": "src.test_collision.__main__#83"
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "segment_count": 6,
+  "start_step": 4,
+  "key_points": [
+    7,
+    91,
+    137,
+    421,
+    421
+  ],
+  "capture_steps": [
+    3,
+    7,
+    91,
+    137,
+    421,
+    421
+  ],
+  "capture_point_details": [
+    {
+      "point_no": 0,
+      "step": 3,
+      "type": "start_before"
+    },
+    {
+      "point_no": 1,
+      "step": 7,
+      "type": "key_point"
+    },
+    {
+      "point_no": 2,
+      "step": 91,
+      "type": "key_point"
+    },
+    {
+      "point_no": 3,
+      "step": 137,
+      "type": "key_point"
+    },
+    {
+      "point_no": 4,
+      "step": 421,
+      "type": "key_point"
+    },
+    {
+      "point_no": 5,
+      "step": 421,
+      "type": "key_point"
+    }
+  ],
+  "segments": [
+    [
+      4,
+      7
+    ],
+    [
+      8,
+      91
+    ],
+    [
+      92,
+      137
+    ],
+    [
+      138,
+      421
+    ],
+    [
+      422,
+      421
+    ]
+  ],
+  "executed_steps": 382,
+  "executed_raw_steps": 386,
+  "frames": [
+    {
+      "order": 1,
+      "step": 3,
+      "point_no": 0,
+      "point_type": "start_before",
+      "event_type": "call",
+      "src": "src/test_reflect.py",
+      "line": 61,
+      "method_name": "test_reflect_padding",
+      "depth": 2,
+      "variables": {
+        "locals": [
+          {
+            "name": "img",
+            "type": "list",
+            "value": [
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                7,
+                8,
+                9
+              ]
+            ],
+            "id": "img"
+          }
+        ],
+        "globals": [
+          {
+            "name": "apply_reflect_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "apply_reflect_padding"
+          },
+          {
+            "name": "test_reflect_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_reflect_padding"
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "step": 7,
+      "point_no": 1,
+      "point_type": "key_point",
+      "event_type": "call",
+      "src": "src/test_reflect.py",
+      "line": 13,
+      "method_name": "apply_reflect_padding",
+      "depth": 3,
+      "variables": {
+        "locals": [
+          {
+            "name": "image",
+            "type": "list",
+            "value": [
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                7,
+                8,
+                9
+              ]
+            ],
+            "id": "image"
+          },
+          {
+            "name": "pad_size",
+            "type": "int",
+            "value": 2,
+            "id": "pad_size"
+          },
+          {
+            "name": "channel_mode",
+            "type": "bool",
+            "value": false,
+            "id": "channel_mode"
+          },
+          {
+            "name": "h",
+            "type": "int",
+            "value": 3,
+            "id": "h"
+          },
+          {
+            "name": "w",
+            "type": "int",
+            "value": 3,
+            "id": "w"
+          },
+          {
+            "name": "is_3d",
+            "type": "bool",
+            "value": false,
+            "id": "is_3d"
+          },
+          {
+            "name": "depth",
+            "type": "int",
+            "value": 1,
+            "id": "depth"
+          },
+          {
+            "name": "stride_h",
+            "type": "int",
+            "value": 7,
+            "id": "stride_h"
+          },
+          {
+            "name": "stride_w",
+            "type": "int",
+            "value": 7,
+            "id": "stride_w"
+          }
+        ],
+        "globals": [
+          {
+            "name": "apply_reflect_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "apply_reflect_padding"
+          },
+          {
+            "name": "test_reflect_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_reflect_padding"
+          }
+        ]
+      }
+    },
+    {
+      "order": 3,
+      "step": 91,
+      "point_no": 2,
+      "point_type": "key_point",
+      "event_type": "line",
+      "src": "src/test_reflect.py",
+      "line": 34,
+      "method_name": "apply_reflect_padding",
+      "depth": 3,
+      "variables": {
+        "locals": [
+          {
+            "name": "image",
+            "type": "list",
+            "value": [
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                7,
+                8,
+                9
+              ]
+            ],
+            "id": "image"
+          },
+          {
+            "name": "pad_size",
+            "type": "int",
+            "value": 2,
+            "id": "pad_size"
+          },
+          {
+            "name": "channel_mode",
+            "type": "bool",
+            "value": false,
+            "id": "channel_mode"
+          },
+          {
+            "name": "h",
+            "type": "int",
+            "value": 3,
+            "id": "h"
+          },
+          {
+            "name": "w",
+            "type": "int",
+            "value": 3,
+            "id": "w"
+          },
+          {
+            "name": "is_3d",
+            "type": "bool",
+            "value": false,
+            "id": "is_3d"
+          },
+          {
+            "name": "depth",
+            "type": "int",
+            "value": 1,
+            "id": "depth"
+          },
+          {
+            "name": "stride_h",
+            "type": "int",
+            "value": 7,
+            "id": "stride_h"
+          },
+          {
+            "name": "stride_w",
+            "type": "int",
+            "value": 7,
+            "id": "stride_w"
+          },
+          {
+            "name": "padded",
+            "type": "list",
+            "value": [
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                2,
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                4,
+                5,
+                6,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                7,
+                8,
+                9,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "id": "padded"
+          },
+          {
+            "name": "r",
+            "type": "int",
+            "value": 2,
+            "id": "r"
+          },
+          {
+            "name": "target_r",
+            "type": "int",
+            "value": 4,
+            "id": "target_r"
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "value": 2,
+            "id": "c"
+          },
+          {
+            "name": "target_c",
+            "type": "int",
+            "value": 4,
+            "id": "target_c"
+          },
+          {
+            "name": "j",
+            "type": "int",
+            "value": 0,
+            "id": "j"
+          },
+          {
+            "name": "inv_jdx",
+            "type": "int",
+            "value": 1,
+            "id": "inv_jdx"
+          },
+          {
+            "name": "src_left",
+            "type": "int",
+            "value": 3,
+            "id": "src_left"
+          },
+          {
+            "name": "src_right",
+            "type": "int",
+            "value": 3,
+            "id": "src_right"
+          },
+          {
+            "name": "actual_left",
+            "type": "int",
+            "value": 3,
+            "id": "actual_left"
+          },
+          {
+            "name": "actual_right",
+            "type": "int",
+            "value": 3,
+            "id": "actual_right"
+          },
+          {
+            "name": "r_idx",
+            "type": "int",
+            "value": 2,
+            "id": "r_idx"
+          }
+        ],
+        "globals": [
+          {
+            "name": "apply_reflect_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "apply_reflect_padding"
+          },
+          {
+            "name": "test_reflect_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_reflect_padding"
+          }
+        ]
+      }
+    },
+    {
+      "order": 4,
+      "step": 137,
+      "point_no": 3,
+      "point_type": "key_point",
+      "event_type": "line",
+      "src": "src/test_reflect.py",
+      "line": 34,
+      "method_name": "apply_reflect_padding",
+      "depth": 3,
+      "variables": {
+        "locals": [
+          {
+            "name": "image",
+            "type": "list",
+            "value": [
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                7,
+                8,
+                9
+              ]
+            ],
+            "id": "image"
+          },
+          {
+            "name": "pad_size",
+            "type": "int",
+            "value": 2,
+            "id": "pad_size"
+          },
+          {
+            "name": "channel_mode",
+            "type": "bool",
+            "value": false,
+            "id": "channel_mode"
+          },
+          {
+            "name": "h",
+            "type": "int",
+            "value": 3,
+            "id": "h"
+          },
+          {
+            "name": "w",
+            "type": "int",
+            "value": 3,
+            "id": "w"
+          },
+          {
+            "name": "is_3d",
+            "type": "bool",
+            "value": false,
+            "id": "is_3d"
+          },
+          {
+            "name": "depth",
+            "type": "int",
+            "value": 1,
+            "id": "depth"
+          },
+          {
+            "name": "stride_h",
+            "type": "int",
+            "value": 7,
+            "id": "stride_h"
+          },
+          {
+            "name": "stride_w",
+            "type": "int",
+            "value": 7,
+            "id": "stride_w"
+          },
+          {
+            "name": "padded",
+            "type": "list",
+            "value": [
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                3,
+                2,
+                1,
+                2,
+                3,
+                2,
+                1
+              ],
+              [
+                6,
+                5,
+                4,
+                5,
+                6,
+                5,
+                4
+              ],
+              [
+                9,
+                8,
+                7,
+                8,
+                9,
+                8,
+                7
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "id": "padded"
+          },
+          {
+            "name": "r",
+            "type": "int",
+            "value": 2,
+            "id": "r"
+          },
+          {
+            "name": "target_r",
+            "type": "int",
+            "value": 4,
+            "id": "target_r"
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "value": 2,
+            "id": "c"
+          },
+          {
+            "name": "target_c",
+            "type": "int",
+            "value": 4,
+            "id": "target_c"
+          },
+          {
+            "name": "j",
+            "type": "int",
+            "value": 1,
+            "id": "j"
+          },
+          {
+            "name": "inv_jdx",
+            "type": "int",
+            "value": 0,
+            "id": "inv_jdx"
+          },
+          {
+            "name": "src_left",
+            "type": "int",
+            "value": 4,
+            "id": "src_left"
+          },
+          {
+            "name": "src_right",
+            "type": "int",
+            "value": 2,
+            "id": "src_right"
+          },
+          {
+            "name": "actual_left",
+            "type": "int",
+            "value": 4,
+            "id": "actual_left"
+          },
+          {
+            "name": "actual_right",
+            "type": "int",
+            "value": 2,
+            "id": "actual_right"
+          },
+          {
+            "name": "r_idx",
+            "type": "int",
+            "value": 5,
+            "id": "r_idx"
+          }
+        ],
+        "globals": [
+          {
+            "name": "apply_reflect_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "apply_reflect_padding"
+          },
+          {
+            "name": "test_reflect_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_reflect_padding"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "Question for Debugging": {
+        "Q1": {
+            "content": "故障发生在哪一行代码？",
+            "result": "主要逻辑故障发生在第 **45 行**：`shifted_idx = idx + layer_idx`。"
+        },
+        "Q2": {
+            "content": "简单解释故障的具体原因。",
+            "result": "**索引双重偏移。** 在 Step 0/1 中，代码已经通过 `offsets[i]` 在原始数据切片时处理了相位差（Layer 1 采样起点的 index 比 Layer 0 晚 1 位）。\r\n但在 Step 2 聚合时，代码又执行了 `idx + layer_idx`，导致在 Layer 1 中取值时跳过了已经对齐好的第一个计算结果，去拿了后一个结果。这导致了**逻辑上的时间轴错位**。"
+        },
+        "Q3": {
+            "content": "提供一种修复该故障的方案（简述即可）。",
+            "result": "直接删除 `shifted_idx = idx + layer_idx` 这一行，统一使用 `idx` 访问所有图层的计算结果：\r\n```python\r\n# 修复后\r\ncombined += layer_results[layer_idx][idx] \r\n```"
+        }
+    },
+    "Question for Understanding": {
+        "Q1": {
+            "content": "在第一个时间点（idx=0），Layer 0 和 Layer 1 实际使用的是哪两个 window？",
+            "result": "* **Layer 0 (offset=0):** 窗口为 `data[0:2]`，即 `[10, 20]`，均值为 **15.0**。\r\n* **Layer 1 (offset=1):** 窗口为 `data[1:3]`，即 `[20, 30]`，均值为 **25.0**。\r\n> *注：原本预期的对齐聚合应该是 15.0 + 25.0 = 40.0，但由于 Q1 提到的 bug，Layer 1 实际上被取到了下一个窗口。*"
+        },
+        "Q2": {
+            "content": "为什么当前结果的长度减少（3 → 2）？是在哪个阶段被截断的？",
+            "result": "* **截断点：** 在 **Step 2** 的聚合循环中。\r\n* **原因：** `min_len` 计算出的初始长度虽然是 3（Layer 0 产生 3 个窗口，Layer 1 产生 2 个窗口，故 `min` 是 2... 抱歉，更正如下）：\r\n    * Layer 0 产生 `[15.0, 25.0, 35.0]` (长度 3)。\r\n    * Layer 1 产生 `[25.0, 35.0]` (长度 2)。\r\n    * 因此 `min_len` 为 **2**。\r\n* 由于代码遍历只到 `min_len`，导致最终结果只有 2 个元素，最后一个窗口的数据被丢弃了。"
+        }
+    }
+}

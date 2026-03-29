@@ -1,0 +1,817 @@
+{
+  "segment_count": 6,
+  "start_step": 5,
+  "key_points": [
+    50,
+    111,
+    132,
+    135,
+    145
+  ],
+  "capture_steps": [
+    4,
+    50,
+    111,
+    132,
+    135,
+    145
+  ],
+  "capture_point_details": [
+    {
+      "point_no": 0,
+      "step": 4,
+      "type": "start_before"
+    },
+    {
+      "point_no": 1,
+      "step": 50,
+      "type": "key_point"
+    },
+    {
+      "point_no": 2,
+      "step": 111,
+      "type": "key_point"
+    },
+    {
+      "point_no": 3,
+      "step": 132,
+      "type": "key_point"
+    },
+    {
+      "point_no": 4,
+      "step": 135,
+      "type": "key_point"
+    },
+    {
+      "point_no": 5,
+      "step": 145,
+      "type": "key_point"
+    }
+  ],
+  "segments": [
+    [
+      5,
+      50
+    ],
+    [
+      51,
+      111
+    ],
+    [
+      112,
+      132
+    ],
+    [
+      133,
+      135
+    ],
+    [
+      136,
+      145
+    ]
+  ],
+  "executed_steps": 149,
+  "executed_raw_steps": 153,
+  "frames": [
+    {
+      "order": 1,
+      "step": 4,
+      "point_no": 0,
+      "point_type": "start_before",
+      "event_type": "call",
+      "src": "src/test_collision.py",
+      "line": 75,
+      "method_name": "test_collision",
+      "depth": 2,
+      "variables": {
+        "locals": [
+          {
+            "name": "poly_a",
+            "type": "list",
+            "value": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                0,
+                4
+              ]
+            ],
+            "id": "poly_a"
+          },
+          {
+            "name": "poly_b",
+            "type": "list",
+            "value": [
+              [
+                2.6,
+                1
+              ],
+              [
+                6.6,
+                1
+              ],
+              [
+                6.6,
+                2
+              ],
+              [
+                2.6,
+                2
+              ]
+            ],
+            "id": "poly_b"
+          }
+        ],
+        "globals": [
+          {
+            "name": "detect_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "detect_collision"
+          },
+          {
+            "name": "test_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_collision"
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "step": 50,
+      "point_no": 1,
+      "point_type": "key_point",
+      "event_type": "line",
+      "src": "src/test_collision.py",
+      "line": 13,
+      "method_name": "detect_collision",
+      "depth": 3,
+      "variables": {
+        "locals": [
+          {
+            "name": "poly_a",
+            "type": "list",
+            "value": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                0,
+                4
+              ]
+            ],
+            "id": "poly_a"
+          },
+          {
+            "name": "poly_b",
+            "type": "list",
+            "value": [
+              [
+                2.6,
+                1
+              ],
+              [
+                6.6,
+                1
+              ],
+              [
+                6.6,
+                2
+              ],
+              [
+                2.6,
+                2
+              ]
+            ],
+            "id": "poly_b"
+          },
+          {
+            "name": "debug",
+            "type": "list",
+            "value": [],
+            "id": "debug"
+          },
+          {
+            "name": "compute_aabb",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "compute_aabb"
+          },
+          {
+            "name": "box_a",
+            "type": "list",
+            "value": [
+              0,
+              2,
+              0,
+              4
+            ],
+            "id": "box_a"
+          },
+          {
+            "name": "box_b",
+            "type": "list",
+            "value": [
+              2.6,
+              6.6,
+              1,
+              2
+            ],
+            "id": "box_b"
+          }
+        ],
+        "globals": [
+          {
+            "name": "detect_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "detect_collision"
+          },
+          {
+            "name": "test_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_collision"
+          }
+        ]
+      },
+      "return_value": [
+        2.6,
+        6.6,
+        1,
+        2
+      ],
+      "assigned_to": [
+        "box_b"
+      ],
+      "assigned_from": [
+        "ret_compute_aabb_6"
+      ]
+    },
+    {
+      "order": 3,
+      "step": 111,
+      "point_no": 2,
+      "point_type": "key_point",
+      "event_type": "line",
+      "src": "src/test_collision.py",
+      "line": 31,
+      "method_name": "detect_collision",
+      "depth": 3,
+      "variables": {
+        "locals": [
+          {
+            "name": "poly_a",
+            "type": "list",
+            "value": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                0,
+                4
+              ]
+            ],
+            "id": "poly_a"
+          },
+          {
+            "name": "poly_b",
+            "type": "list",
+            "value": [
+              [
+                2.6,
+                1
+              ],
+              [
+                6.6,
+                1
+              ],
+              [
+                6.6,
+                2
+              ],
+              [
+                2.6,
+                2
+              ]
+            ],
+            "id": "poly_b"
+          },
+          {
+            "name": "debug",
+            "type": "list",
+            "value": [],
+            "id": "debug"
+          },
+          {
+            "name": "compute_aabb",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "compute_aabb"
+          },
+          {
+            "name": "box_a",
+            "type": "list",
+            "value": [
+              0,
+              2,
+              0,
+              4
+            ],
+            "id": "box_a"
+          },
+          {
+            "name": "box_b",
+            "type": "list",
+            "value": [
+              2.6,
+              6.6,
+              1,
+              2
+            ],
+            "id": "box_b"
+          },
+          {
+            "name": "compute_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "compute_padding"
+          },
+          {
+            "name": "pad_a",
+            "type": "tuple",
+            "value": [
+              0.5,
+              1.0
+            ],
+            "id": "pad_a"
+          },
+          {
+            "name": "pad_b",
+            "type": "tuple",
+            "value": [
+              1.0,
+              0.5
+            ],
+            "id": "pad_b"
+          }
+        ],
+        "globals": [
+          {
+            "name": "detect_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "detect_collision"
+          },
+          {
+            "name": "test_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_collision"
+          }
+        ]
+      },
+      "return_value": [
+        1.0,
+        0.5
+      ],
+      "assigned_to": [
+        "pad_b"
+      ],
+      "assigned_from": [
+        "ret_compute_padding_13"
+      ]
+    },
+    {
+      "order": 4,
+      "step": 132,
+      "point_no": 3,
+      "point_type": "key_point",
+      "event_type": "line",
+      "src": "src/test_collision.py",
+      "line": 47,
+      "method_name": "detect_collision",
+      "depth": 3,
+      "variables": {
+        "locals": [
+          {
+            "name": "poly_a",
+            "type": "list",
+            "value": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                0,
+                4
+              ]
+            ],
+            "id": "poly_a"
+          },
+          {
+            "name": "poly_b",
+            "type": "list",
+            "value": [
+              [
+                2.6,
+                1
+              ],
+              [
+                6.6,
+                1
+              ],
+              [
+                6.6,
+                2
+              ],
+              [
+                2.6,
+                2
+              ]
+            ],
+            "id": "poly_b"
+          },
+          {
+            "name": "debug",
+            "type": "list",
+            "value": [],
+            "id": "debug"
+          },
+          {
+            "name": "compute_aabb",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "compute_aabb"
+          },
+          {
+            "name": "box_a",
+            "type": "list",
+            "value": [
+              0,
+              2,
+              0,
+              4
+            ],
+            "id": "box_a"
+          },
+          {
+            "name": "box_b",
+            "type": "list",
+            "value": [
+              2.6,
+              6.6,
+              1,
+              2
+            ],
+            "id": "box_b"
+          },
+          {
+            "name": "compute_padding",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "compute_padding"
+          },
+          {
+            "name": "pad_a",
+            "type": "tuple",
+            "value": [
+              0.5,
+              1.0
+            ],
+            "id": "pad_a"
+          },
+          {
+            "name": "pad_b",
+            "type": "tuple",
+            "value": [
+              1.0,
+              0.5
+            ],
+            "id": "pad_b"
+          },
+          {
+            "name": "pad_box",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "pad_box"
+          },
+          {
+            "name": "padded_a",
+            "type": "list",
+            "value": [
+              -0.5,
+              2.5,
+              -1.0,
+              5.0
+            ],
+            "id": "padded_a"
+          },
+          {
+            "name": "padded_b",
+            "type": "list",
+            "value": [
+              1.6,
+              7.6,
+              0.5,
+              2.5
+            ],
+            "id": "padded_b"
+          }
+        ],
+        "globals": [
+          {
+            "name": "detect_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "detect_collision"
+          },
+          {
+            "name": "test_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_collision"
+          }
+        ]
+      },
+      "return_value": [
+        1.6,
+        7.6,
+        0.5,
+        2.5
+      ],
+      "assigned_to": [
+        "padded_b"
+      ],
+      "assigned_from": [
+        "ret_pad_box_18"
+      ]
+    },
+    {
+      "order": 5,
+      "step": 135,
+      "point_no": 4,
+      "point_type": "key_point",
+      "event_type": "line",
+      "src": "src/test_collision.py",
+      "line": 57,
+      "method_name": "overlap",
+      "depth": 4,
+      "variables": {
+        "locals": [
+          {
+            "name": "b1",
+            "type": "list",
+            "value": [
+              -0.5,
+              2.5,
+              -1.0,
+              5.0
+            ],
+            "id": "b1"
+          },
+          {
+            "name": "b2",
+            "type": "list",
+            "value": [
+              1.6,
+              7.6,
+              0.5,
+              2.5
+            ],
+            "id": "b2"
+          },
+          {
+            "name": "min_x1",
+            "type": "float",
+            "value": -0.5,
+            "id": "min_x1"
+          },
+          {
+            "name": "max_x1",
+            "type": "float",
+            "value": 2.5,
+            "id": "max_x1"
+          },
+          {
+            "name": "min_y1",
+            "type": "float",
+            "value": -1.0,
+            "id": "min_y1"
+          },
+          {
+            "name": "max_y1",
+            "type": "float",
+            "value": 5.0,
+            "id": "max_y1"
+          }
+        ],
+        "globals": [
+          {
+            "name": "detect_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "detect_collision"
+          },
+          {
+            "name": "test_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_collision"
+          }
+        ]
+      },
+      "return_value": {
+        "min_x1": -0.5,
+        "max_x1": 2.5,
+        "min_y1": -1.0,
+        "max_y1": 5.0
+      },
+      "assigned_to": [
+        "min_x1",
+        "max_x1",
+        "min_y1",
+        "max_y1"
+      ]
+    },
+    {
+      "order": 6,
+      "step": 145,
+      "point_no": 5,
+      "point_type": "key_point",
+      "event_type": "exception",
+      "src": "src/test_collision.py",
+      "line": 80,
+      "method_name": "test_collision",
+      "depth": 2,
+      "variables": {
+        "locals": [
+          {
+            "name": "poly_a",
+            "type": "list",
+            "value": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                0,
+                4
+              ]
+            ],
+            "id": "poly_a"
+          },
+          {
+            "name": "poly_b",
+            "type": "list",
+            "value": [
+              [
+                2.6,
+                1
+              ],
+              [
+                6.6,
+                1
+              ],
+              [
+                6.6,
+                2
+              ],
+              [
+                2.6,
+                2
+              ]
+            ],
+            "id": "poly_b"
+          },
+          {
+            "name": "result",
+            "type": "bool",
+            "value": true,
+            "id": "result"
+          },
+          {
+            "name": "expected",
+            "type": "bool",
+            "value": false,
+            "id": "expected"
+          }
+        ],
+        "globals": [
+          {
+            "name": "detect_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "detect_collision"
+          },
+          {
+            "name": "test_collision",
+            "type": "function",
+            "value": {
+              "__class__": "function",
+              "__fields__": {}
+            },
+            "id": "test_collision"
+          }
+        ]
+      }
+    }
+  ]
+}
